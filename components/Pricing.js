@@ -29,7 +29,7 @@ const Pricing = () => {
               variants={scrollAnimation}
               className="leading-normal w-10/12 sm:w-7/12 lg:w-6/12 mx-auto my-2 text-center"
             >
-              Carreras que ofrece la Institución.
+              Carreras que ofrece nuestra Institución.
             </motion.p>
           </ScrollAnimationWrapper>
           <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-3 gap-4 lg:gap-12 py-8 lg:py-12 px-6 sm:px-0 lg:px-6">
@@ -175,6 +175,13 @@ const Pricing = () => {
             >
               La institución cuenta con un consultorio medico dentro de sus instalaciones, totalmente equipado, donde podrás acudir cada vez que requieras atención médica, solo necesitas mostrar tu carnet que te identifica como alumno regular, sin ningún costo adicional.
             </motion.p>
+          </ScrollAnimationWrapper>
+          <ScrollAnimationWrapper className="w-full flex flex-col pt-2 pb-0">
+            <motion.h3
+              variants={scrollAnimation}
+              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
+              Testimonios
+            </motion.h3>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper className="w-full flex flex-col py-12">
             <motion.div variants={scrollAnimation}>

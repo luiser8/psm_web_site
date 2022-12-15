@@ -26,7 +26,7 @@ const Footer = () => {
           <p className="text-gray-400">©{new Date().getFullYear()} - Politécnico Santiago Mariño</p>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Màs carreras</p>
+          <p className="text-black-600 mb-4 font-medium text-lg">Más carreras</p>
           <ul className="text-black-500 ">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
             Ingeniería Industrial{" "}

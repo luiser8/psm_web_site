@@ -14,12 +14,12 @@ const Hero = ({
     },
     {
       name: "Sedes",
-      number: "20",
+      number: "10",
       icon: "/assets/Icon/gridicons_location.svg",
     },
     {
       name: "Tecnología",
-      number: "10",
+      number: "5",
       icon: "/assets/Icon/bx_bxs-server.svg",
     },
   ],
@@ -42,7 +42,7 @@ const Hero = ({
               <p className="text-black-500 mt-4 mb-6">
               Somos una institución de educación superior de carácter privado sin fines de lucro, que cumple las funciones de docencia, investigación y extensión, dirigidas a formar arquitectos e ingenieros capaces de incorporarse al proceso de desarrollo del país. Nuestra organización forma parte de una red de institutos y colegios de educación superior denominada Complejo Educativo “Antonio José de Sucre”. Nuestro lema es Formación para la Excelencia.
               </p>
-              <ButtonPrimary>Màs información</ButtonPrimary>
+              <ButtonPrimary>Más información</ButtonPrimary>
             </div>
             <div className="flex w-full">
               <motion.div className="h-full w-full" variants={scrollAnimation}>
