@@ -23,7 +23,13 @@ const Header = () => {
       >
         <nav className="max-w-screen px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
           <div className="col-start-1 col-end-2 flex items-center">
-            <LogoPSM className="h-auto w-auto bg-cover" /> <h2 className="pl-2">PSM Logo</h2>
+            {/* <LogoPSM className="h-auto w-auto bg-cover" /> <h2 className="pl-2">PSM Logo</h2> */}
+            <div class="flex justify-start">
+              <a href="#">
+                <span class="sr-only">PSM</span>
+                <img class="h-auto w-auto sm:h-10" src="/assets/Logo2.png" alt="" />
+              </a>
+            </div>
           </div>
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500 items-center">
             <LinkScroll
