@@ -22,11 +22,11 @@ const Footer = () => {
               <Instagram className="h-6 w-6" />
             </div>
           </div>
-          <p className="text-gray-400">©{new Date().getFullYear()} - Politécnico Santiago Mariño</p>
+          <p className="text-gray-600">©{new Date().getFullYear()} - Politécnico Santiago Mariño</p>
         </div>
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Más carreras</p>
-          <ul className="text-black-500 ">
+          <p className="text-black-100 mb-4 font-medium text-lg">Más carreras</p>
+          <ul className="text-black-100 ">
             <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
             Ingeniería Industrial{" "}
             </li>
@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
         <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">Pólizas de seguro</p>
-          <ul className="text-black-500">
+          <ul className="text-black-100">
             <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
               Accidentes personales{" "}
             </li>
@@ -62,8 +62,8 @@ const Footer = () => {
           </ul>
         </div>
         <div className="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Programas de orientación</p>
-          <ul className="text-black-500">
+          <p className="text-black-100 mb-4 font-medium text-lg">Programas de orientación</p>
+          <ul className="text-black-100">
             <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
               Académica, Vocacional y Psicológica{" "}
             </li>

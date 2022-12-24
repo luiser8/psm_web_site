@@ -28,7 +28,7 @@ const Header = () => {
               </a>
             </div>
           </div>
-          <ul className="hidden lg:flex col-start-4 col-end-8 text-black-500 items-center">
+          <ul className="hidden lg:flex col-start-4 col-end-8 text-black-100 items-center">
             <LinkScroll
               activeClass="active"
               to="institution"
@@ -42,7 +42,7 @@ const Header = () => {
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "institution"
                   ? " text-orange-400 animation-active font-medium "
-                  : " text-black-500 hover:text-orange-400 a")
+                  : " text-black-100 hover:text-orange-400 a")
               }
             >
               La Institución
@@ -60,7 +60,7 @@ const Header = () => {
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "academy"
                 ? " text-orange-400 animation-active font-medium "
-                : " text-black-500 hover:text-orange-400 a")
+                : " text-black-100 hover:text-orange-400 a")
               }
             >
               Oferta Académica
@@ -78,7 +78,7 @@ const Header = () => {
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "student_services"
                 ? " text-orange-400 animation-active font-medium "
-                : " text-black-500 hover:text-orange-400 a")
+                : " text-black-100 hover:text-orange-400 a")
               }
             >
               Servicios Estudiantiles
@@ -96,7 +96,7 @@ const Header = () => {
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
                 (activeLink === "testimoni"
                 ? " text-orange-400 animation-active font-medium "
-                : " text-black-500 hover:text-orange-400 a")
+                : " text-black-100 hover:text-orange-400 a")
               }
             >
               Contáctenos
@@ -104,7 +104,7 @@ const Header = () => {
           </ul>
           <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">
-              <a className="text-black-600 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-400 transition-all">
+              <a className="text-black-100 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-400 transition-all">
                   Registrarse
               </a>
             </Link>
@@ -115,8 +115,8 @@ const Header = () => {
       {/* Mobile Navigation */}
 
       <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
-        <div className="bg-white-500 sm:px-3">
-          <ul className="flex w-full justify-between items-center text-black-500">
+        <div className="bg-white-100 sm:px-3">
+          <ul className="flex w-full justify-between items-center text-black-100">
             <LinkScroll
               activeClass="active"
               to="institution"
