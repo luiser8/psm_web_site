@@ -1,5 +1,4 @@
 import React from "react";
-import LogoPSM from "../../public/assets/Logo.svg";
 import Facebook from "../../public/assets/Icon/facebook.svg";
 import Twitter from "../../public/assets/Icon/twitter.svg";
 import Instagram from "../../public/assets/Icon/instagram.svg";
@@ -8,7 +7,7 @@ const Footer = () => {
     <div className="bg-white-300 pt-44 pb-24">
       <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
-          <LogoPSM className="h-8 w-auto mb-6" />
+          <img className="h-10 w-auto mb-6" src="/assets/Logo.png" alt="" />
           <p className="mb-4">
             <strong className="font-medium">Politécnico Santiago Mariño</strong> le ofrece la oportunidad de graduarse en alguna de las siguientes áreas: Arquitectura, Ingeniería Civil, Eléctrica, Electrónica, Industrial, Mantenimiento mecánico, Sistemas, Diseño industrial, Química entre otras
           </p>
@@ -28,25 +27,25 @@ const Footer = () => {
         <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">Más carreras</p>
           <ul className="text-black-500 ">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
             Ingeniería Industrial{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
             Ingeniería de Mantenimiento Mecánico{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
             Ingeniería de Sistemas{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
             Ingeniería de Diseño Industrial{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
             Ingeniería Química{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
             Ingeniería de Petróleos{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
             Ingeniería Agronómica{" "}
             </li>
           </ul>
@@ -54,10 +53,10 @@ const Footer = () => {
         <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">Pólizas de seguro</p>
           <ul className="text-black-500">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
               Accidentes personales{" "}
             </li>
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
               Programa de culminación de estudios{" "}
             </li>
           </ul>
@@ -65,7 +64,7 @@ const Footer = () => {
         <div className="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
           <p className="text-black-600 mb-4 font-medium text-lg">Programas de orientación</p>
           <ul className="text-black-500">
-            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
               Académica, Vocacional y Psicológica{" "}
             </li>
           </ul>

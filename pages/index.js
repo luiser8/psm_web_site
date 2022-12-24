@@ -1,17 +1,17 @@
-import Feature from "../components/Feature";
-import Pricing from "../components/Pricing";
-import Hero from "../components/Hero";
+import Institution from "../components/Institution";
+import AcademicOffer from "../components/AcademicOffer";
+import StudentServices from "../components/StudentServices";
 import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/SeoHead";
 
-export default function Home() {
+export default function index() {
   return (
     <>
       <SeoHead title='Politécnico Santiago Mariño' />
       <Layout>
-        <Hero />
-        <Feature />
-        <Pricing />
+        <Institution />
+        <AcademicOffer />
+        <StudentServices />
       </Layout>
     </>
   );
