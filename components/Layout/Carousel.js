@@ -14,12 +14,12 @@ export default function Carousel() {
     },
     {
       id: 1,
-      url: '/assets/web2.png',
-    },
-    {
-      id: 2,
       url: '/assets/web3.png',
     },
+    // {
+    //   id: 2,
+    //   url: '/assets/web3.png',
+    // },
   ];
 
   const handleNextSlide = () => {
