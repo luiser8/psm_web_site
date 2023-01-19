@@ -64,6 +64,7 @@ export default function Carousel() {
                     className="h-auto w-auto transition-all"
                     objectFit="none"
                     quality={100}
+                    alt="Image for carousel"
                   />
               );
             }
