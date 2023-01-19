@@ -10,17 +10,17 @@ export default function Carousel() {
   const images = [
     {
       id: 0,
-      url: '/assets/web1.png',
+      url: '/assets/web1-min.png',
       cloudinary: "https://res.cloudinary.com/luiser85/image/upload/v1674132064/web1_n55v2c.png",
     },
     {
       id: 1,
-      url: '/assets/web2.png',
+      url: '/assets/web2-min.png',
       cloudinary: "https://res.cloudinary.com/luiser85/image/upload/v1674132079/web2_tnekov.png",
     },
     {
       id: 2,
-      url: '/assets/web3.png',
+      url: '/assets/web3-min.png',
       cloudinary: "https://res.cloudinary.com/luiser85/image/upload/v1674132071/web3_wrf39j.png",
     },
   ];
@@ -62,7 +62,7 @@ export default function Carousel() {
               return (
                   <Image
                     key={index}
-                    src={image.cloudinary}
+                    src={image.url}
                     layout="fill"
                     className="h-auto w-auto transition-all"
                     objectFit="none"
