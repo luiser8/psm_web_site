@@ -60,7 +60,7 @@ export default function Carousel() {
           {images.map((image, index) => {
             if (index === currentSlide) {
               return (
-                  <Image
+                  <img
                     key={index}
                     src={image.url}
                     layout="fill"
