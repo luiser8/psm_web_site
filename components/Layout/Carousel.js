@@ -60,14 +60,14 @@ export default function Carousel() {
           {images.map((image, index) => {
             if (index === currentSlide) {
               return (
-                  <img
+                  <Image
                     key={index}
                     src={image.url}
                     layout="fill"
                     className="h-auto w-auto transition-all"
-                    objectFit="none"
-                    quality={100}
                     alt="Image for carousel"
+                    loading="lazy"
+                    objectFit="cover"
                   />
               );
             }
