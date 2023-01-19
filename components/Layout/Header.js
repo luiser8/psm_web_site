@@ -4,30 +4,31 @@ import { Link as LinkScroll } from "react-scroll";
 import ButtonOutline from "../misc/ButtonOutline.";
 
 const Header = () => {
-  const [activeLink, setActiveLink] = useState(null);
+  const [activeLink, setActiveLink] = useState("institution");
   const [scrollActive, setScrollActive] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScrollActive(window.scrollY > 20);
     });
+    return () => { setScrollActive(false); };
   }, []);
   return (
     <>
       <header
         className={
-          "fixed top-0 w-full  z-30 bg-white-500 transition-all " +
-          (scrollActive ? " shadow-md pt-0" : " pt-4")
+          "fixed top-0 w-full z-30 bg-white-500 transition-all " +
+          (scrollActive ? " shadow-md pt-0" : " pt-0")
         }
       >
-        <nav className="max-w-screen px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col py-3 sm:py-4">
-          <div className="col-start-1 col-end-2 flex items-center">
+        <nav className="max-w-screen px-8 sm:px-8 lg:px-8 mx-auto py-3 sm:py-4">
+          {/* <div className="col-start-1 col-end-2 flex items-center">
             <div className="flex justify-start">
               <a href="#">
                 <span className="sr-only">PSM</span>
                 <img className="h-auto w-auto sm:h-10" src="/assets/Logo2.png" alt="" />
               </a>
             </div>
-          </div>
+          </div> */}
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-100 items-center">
             <LinkScroll
               activeClass="active"
@@ -102,19 +103,19 @@ const Header = () => {
               Contáctenos
             </LinkScroll>
           </ul>
-          <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
+          {/* <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">
               <a className="text-black-100 mx-2 sm:mx-4 capitalize tracking-wide hover:text-orange-400 transition-all">
                   Registrarse
               </a>
             </Link>
             <ButtonOutline>Iniciar</ButtonOutline>
-          </div>
+          </div> */}
         </nav>
       </header>
       {/* Mobile Navigation */}
 
-      <nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
+      {/*<nav className="fixed lg:hidden bottom-0 left-0 right-0 z-20 px-4 sm:px-8 shadow-t ">
         <div className="bg-white-100 sm:px-3">
           <ul className="flex w-full justify-between items-center text-black-100">
             <LinkScroll
@@ -247,7 +248,7 @@ const Header = () => {
             </LinkScroll>
           </ul>
         </div>
-      </nav>
+      </nav>*/}
       {/* End Mobile Navigation */}
     </>
   );

@@ -5,7 +5,7 @@ import Instagram from "../../public/assets/Icon/instagram.svg";
 const Footer = () => {
   return (
     <div className="bg-white-300 pt-44 pb-24">
-      <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
+      <div className="max-w-screens w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
         <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
           <img className="h-10 w-auto mb-6" src="/assets/Logo.png" alt="" />
           <p className="mb-4">
@@ -31,7 +31,7 @@ const Footer = () => {
             Ingeniería Industrial{" "}
             </li>
             <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-            Ingeniería de Mantenimiento Mecánico{" "}
+            Ingeniería en Mantenimiento Mecánico{" "}
             </li>
             <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
             Ingeniería de Sistemas{" "}

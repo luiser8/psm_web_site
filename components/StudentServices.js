@@ -13,10 +13,10 @@ const StudentServices = () => {
 
   return (
     <div
-      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
+      className="bg-gradient-to-b from-white-300 to-white-500 w-full py-12 mb-6"
       id="student_services"
     >
-      <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
+      <div className="max-w-screen  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
           <ScrollAnimationWrapper>
             <motion.h3
@@ -123,13 +123,13 @@ const StudentServices = () => {
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-relaxed w-9/12 sm:w-6/12 lg:w-4/12 mx-auto">
               Servicios Estudiantiles
             </motion.h3>
-            <motion.p className="leading-normal  mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
+            <motion.p className="leading-normal mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
             El Instituto Universitario Politécnico "Santiago Mariño", ofrece al estudiante asistencia individual y colectiva, con el objetivo de satisfacer sus necesidades médico - odontológicas, deportivas, culturales, recreativas y de orientación.
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
-            <motion.div className="py-12 w-full px-8 mt-16" variants={scrollAnimation}>
-              <Maps className="w-full h-auto" />
+            <motion.div className="py-4 w-full px-8 mt-14" variants={scrollAnimation}>
+              <Maps className="w-auto h-auto mx-auto" />
             </motion.div>
           </ScrollAnimationWrapper>
           {/* <ScrollAnimationWrapper>
@@ -162,7 +162,7 @@ const StudentServices = () => {
             </motion.div>
           </ScrollAnimationWrapper> */}
         </div>
-        <div className="flex flex-col w-full my-16" id="testimoni">
+        <div className="flex flex-col w-full" id="testimoni">
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
@@ -190,7 +190,7 @@ const StudentServices = () => {
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper className="flex justify-center relative w-full mt-16">
             <motion.div variants={scrollAnimation} custom={{duration: 3}}>
-            <iframe width="1180" height="720" scrolling="no" src="https://maps.google.es/maps/ms?ie=UTF8&amp;hl=es-419&amp;oe=UTF8&amp;msa=0&amp;msid=202280427449831017393.0004ccaf6e66638aecf2c&amp;t=m&amp;ll=8.733077,-67.214355&amp;spn=10.410586,14.0625&amp;z=6&amp;output=embed"></iframe>
+              <iframe width="1380" height="720" scrolling="no" src="https://maps.google.es/maps/ms?ie=UTF8&amp;hl=es-419&amp;oe=UTF8&amp;msa=0&amp;msid=202280427449831017393.0004ccaf6e66638aecf2c&amp;t=m&amp;ll=8.733077,-67.214355&amp;spn=10.410586,14.0625&amp;z=6&amp;output=embed"></iframe>
             </motion.div>
           </ScrollAnimationWrapper>
         </div>

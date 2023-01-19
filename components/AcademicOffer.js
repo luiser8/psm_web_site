@@ -16,19 +16,20 @@ const AcademicOffer = () => {
 
   return (
     <div
-      className="max-w-screen-xl mt-8 mb-6 sm:mt-14 sm:mb-14 px-6 sm:px-8 lg:px-16 mx-auto"
+      className="max-w-screen mt-6 mb-4 sm:mt-10 sm:mb-10 px-6 sm:px-8 lg:px-16 mx-auto"
       id="academy"
     >
-      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 p  y-8 my-12">
+      <div className="grid grid-flow-row sm:grid-flow-col grid-cols-1 sm:grid-cols-2 gap-8 y-8 my-16">
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
               src="/assets/Home2.png"
-              alt="VPN Illustrasi"
+              alt="Academy"
               layout="responsive"
               quality={100}
               height={414}
               width={508}
+              objectFit="contain"
             />
           </motion.div>
         </ScrollAnimationWrapper>
