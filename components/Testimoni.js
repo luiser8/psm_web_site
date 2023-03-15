@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import react slick
 import Slider from "react-slick";
 import Image from "next/image";
 import Stars from "../public/assets/Icon/stars.svg";

@@ -21,14 +21,6 @@ const Header = () => {
         }
       >
         <nav className="max-w-screen px-8 sm:px-8 lg:px-8 mx-auto py-3 sm:py-4">
-          {/* <div className="col-start-1 col-end-2 flex items-center">
-            <div className="flex justify-start">
-              <a href="#">
-                <span className="sr-only">PSM</span>
-                <img className="h-auto w-auto sm:h-10" src="/assets/Logo2.png" alt="" />
-              </a>
-            </div>
-          </div> */}
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-100 items-center">
             <LinkScroll
               activeClass="active"
@@ -64,7 +56,25 @@ const Header = () => {
                 : " text-black-100 hover:text-orange-400 a")
               }
             >
-              Oferta Académica
+              Carreras
+            </LinkScroll>
+            <LinkScroll
+              activeClass="active"
+              to="saia"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              onSetActive={() => {
+                setActiveLink("saia");
+              }}
+              className={
+                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                (activeLink === "saia"
+                  ? " text-orange-400 animation-active font-medium "
+                  : " text-black-100 hover:text-orange-400 a")
+              }
+            >
+              Educación a distancia
             </LinkScroll>
             <LinkScroll
               activeClass="active"
@@ -82,20 +92,20 @@ const Header = () => {
                 : " text-black-100 hover:text-orange-400 a")
               }
             >
-              Servicios Estudiantiles
+              Servicios
             </LinkScroll>
             <LinkScroll
               activeClass="active"
-              to="testimoni"
+              to="contact"
               spy={true}
               smooth={true}
               duration={1000}
               onSetActive={() => {
-                setActiveLink("testimoni");
+                setActiveLink("contact");
               }}
               className={
                 "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "testimoni"
+                (activeLink === "contact"
                 ? " text-orange-400 animation-active font-medium "
                 : " text-black-100 hover:text-orange-400 a")
               }
