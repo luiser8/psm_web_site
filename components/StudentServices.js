@@ -63,7 +63,7 @@ const StudentServices = () => {
             </motion.div>
           </ScrollAnimationWrapper> */}
         </div>
-        <div className="flex flex-col w-full" id="testimoni">
+        {/* <div className="flex flex-col w-full" id="testimoni">
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
@@ -89,7 +89,7 @@ const StudentServices = () => {
               <Testimoni />
             </motion.div>
           </ScrollAnimationWrapper>
-        </div>
+        </div> */}
       </div>
     </div>
   );
