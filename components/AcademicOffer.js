@@ -84,8 +84,11 @@ const AcademicOffer = ({
     dotsClass: "slick-dots w-max absolute mt-20  ",
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 2,
+    autoplaySpeed: 4000,
+    autoplay: true,
+    cssEase: "linear",
     responsive: [
       {
         breakpoint: 770,
