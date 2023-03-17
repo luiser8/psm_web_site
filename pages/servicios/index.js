@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import getScrollAnimation from "../../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "../../components/Layout/ScrollAnimationWrapper";
 
-const Services = () => {
+const Servicios = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
@@ -95,4 +95,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Servicios;

@@ -5,7 +5,7 @@ import ScrollAnimationWrapper from "../../components/Layout/ScrollAnimationWrapp
 import Carousel from "../../components/Layout/Carousel";
 import Image from "next/image";
 
-const Institution = () => {
+const Institucion = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
@@ -55,4 +55,4 @@ const Institution = () => {
   );
 };
 
-export default Institution;
+export default Institucion;

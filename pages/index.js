@@ -1,17 +1,17 @@
-import Institution from "./institution/index";
-import Academic from "./academic/index";
+import Institucion from "./institucion/index";
+import Carreras from "./carreras/index";
 import Saia from "./saia/index";
-import Services from "./services/index";
-import Contact from "./contact/index";
+import Servicios from "./servicios/index";
+import Contacto from "./contactos/index";
 
 export default function index() {
   return (
     <>
-        <Institution />
-        <Academic />
+        <Institucion />
+        <Carreras />
         <Saia />
-        <Services />
-        <Contact />
+        <Servicios />
+        <Contacto />
     </>
   );
 }

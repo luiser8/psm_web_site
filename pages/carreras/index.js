@@ -9,7 +9,7 @@ import getScrollAnimation from "../../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "../../components/Layout/ScrollAnimationWrapper";
 import carrerasMock from "../../utils/mocks/carrerasMock.js";
 
-const Academic = () => {
+const Carreras = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
   const settings = {
     dots: true,
@@ -82,7 +82,7 @@ const Academic = () => {
                     <h1 className="title-font text-lg font-medium text-gray-900 mb-3">{carrerasMock.name}</h1>
                     <p className="leading-relaxed mb-3">{carrerasMock.description}</p>
                     <div className="flex items-center flex-wrap">
-                      <Link href={`/academic/${carrerasMock.detail}`} className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
+                      <Link href={`/carreras/${carrerasMock.detail}`} className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                         <div className="mx-auto">
                           <a className="cursor-pointer">Más detalles</a>
                           {/* <svg className="w-4 h-4 ml-2 cursor-pointer" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -122,4 +122,4 @@ const Academic = () => {
   );
 };
 
-export default Academic;
+export default Carreras;

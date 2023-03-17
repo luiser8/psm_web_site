@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import getScrollAnimation from "../../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "../../components/Layout/ScrollAnimationWrapper";
 
-const Contact = () => {
+const Contacto = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
@@ -24,4 +24,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contacto;
