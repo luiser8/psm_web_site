@@ -1,11 +1,14 @@
 import React, { useState, useEffect } from "react";
-//import Link from "next/link";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import { Link as LinkScroll } from "react-scroll";
 //import ButtonOutline from "../misc/ButtonOutline.";
 
 const Header = () => {
+  const router = useRouter();
   const [activeLink, setActiveLink] = useState("institution");
   const [scrollActive, setScrollActive] = useState(false);
+
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setScrollActive(window.scrollY > 20);
@@ -22,96 +25,104 @@ const Header = () => {
       >
         <nav className="max-w-screen px-8 sm:px-8 lg:px-8 mx-auto py-3 sm:py-4">
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-100 items-center">
-            <LinkScroll
-              activeClass="active"
-              to="institution"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("institution");
-              }}
-              className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "institution"
-                  ? " text-orange-400 animation-active font-medium "
-                  : " text-black-100 hover:text-orange-400 a")
-              }
-            >
-              La Institución
-            </LinkScroll>
-            <LinkScroll
-              activeClass="active"
-              to="academy"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("academy");
-              }}
-              className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "academy"
-                ? " text-orange-400 animation-active font-medium "
-                : " text-black-100 hover:text-orange-400 a")
-              }
-            >
-              Carreras
-            </LinkScroll>
-            <LinkScroll
-              activeClass="active"
-              to="saia"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("saia");
-              }}
-              className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "saia"
-                  ? " text-orange-400 animation-active font-medium "
-                  : " text-black-100 hover:text-orange-400 a")
-              }
-            >
-              Educación a distancia
-            </LinkScroll>
-            <LinkScroll
-              activeClass="active"
-              to="student_services"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("student_services");
-              }}
-              className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "student_services"
-                ? " text-orange-400 animation-active font-medium "
-                : " text-black-100 hover:text-orange-400 a")
-              }
-            >
-              Servicios
-            </LinkScroll>
-            <LinkScroll
-              activeClass="active"
-              to="contact"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              onSetActive={() => {
-                setActiveLink("contact");
-              }}
-              className={
-                "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                (activeLink === "contact"
-                ? " text-orange-400 animation-active font-medium "
-                : " text-black-100 hover:text-orange-400 a")
-              }
-            >
-              Contáctenos
-            </LinkScroll>
+            {router.pathname === "/" ? (
+              <>
+                <LinkScroll
+                  activeClass="active"
+                  to="institution"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                  onSetActive={() => {
+                    setActiveLink("institution");
+                  }}
+                  className={
+                    "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                    (activeLink === "institution"
+                      ? " text-orange-400 animation-active font-medium "
+                      : " text-black-100 hover:text-orange-400 a")
+                  }
+                >
+                  La Institución
+                </LinkScroll>
+                <LinkScroll
+                  activeClass="active"
+                  to="academy"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                  onSetActive={() => {
+                    setActiveLink("academy");
+                  }}
+                  className={
+                    "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                    (activeLink === "academy"
+                      ? " text-orange-400 animation-active font-medium "
+                      : " text-black-100 hover:text-orange-400 a")
+                  }
+                >
+                  Carreras
+                </LinkScroll>
+                <LinkScroll
+                  activeClass="active"
+                  to="saia"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                  onSetActive={() => {
+                    setActiveLink("saia");
+                  }}
+                  className={
+                    "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                    (activeLink === "saia"
+                      ? " text-orange-400 animation-active font-medium "
+                      : " text-black-100 hover:text-orange-400 a")
+                  }
+                >
+                  Educación a distancia
+                </LinkScroll>
+                <LinkScroll
+                  activeClass="active"
+                  to="student_services"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                  onSetActive={() => {
+                    setActiveLink("student_services");
+                  }}
+                  className={
+                    "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                    (activeLink === "student_services"
+                      ? " text-orange-400 animation-active font-medium "
+                      : " text-black-100 hover:text-orange-400 a")
+                  }
+                >
+                  Servicios
+                </LinkScroll>
+                <LinkScroll
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                  onSetActive={() => {
+                    setActiveLink("contact");
+                  }}
+                  className={
+                    "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                    (activeLink === "contact"
+                      ? " text-orange-400 animation-active font-medium "
+                      : " text-black-100 hover:text-orange-400 a")
+                  }
+                >
+                  Contáctenos
+                </LinkScroll>
+              </>
+            ) : (
+              <Link href="/" className={"px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-orange-400 animation-active font-medium"}>Volver</Link>
+            )}
+
+
           </ul>
           {/* <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">

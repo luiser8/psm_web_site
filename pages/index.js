@@ -1,22 +1,17 @@
-import Institution from "../components/Institution";
-import AcademicOffer from "../components/AcademicOffer";
-import StudentServices from "../components/StudentServices";
-import Layout from "../components/Layout/Layout";
-import SeoHead from "../components/SeoHead";
-import Saia from "../components/Saia";
-import Contact from "../components/Contact";
+import Institution from "./institution/index";
+import Academic from "./academic/index";
+import Saia from "./saia/index";
+import Services from "./services/index";
+import Contact from "./contact/index";
 
 export default function index() {
   return (
     <>
-      <SeoHead title='Politécnico Santiago Mariño' />
-      <Layout>
         <Institution />
-        <AcademicOffer />
+        <Academic />
         <Saia />
-        <StudentServices />
+        <Services />
         <Contact />
-      </Layout>
     </>
   );
 }

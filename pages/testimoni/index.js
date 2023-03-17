@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
-import Stars from "../public/assets/Icon/stars.svg";
-import ArrowBack from "../public/assets/Icon/eva_arrow-back-fill.svg";
-import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
+import Stars from "../../public/assets/Icon/stars.svg";
+import ArrowBack from "../../public/assets/Icon/eva_arrow-back-fill.svg";
+import ArrowNext from "../../public/assets/Icon/eva_arrow-next-fill.svg";
 
 const Testimoni = ({
   listTestimoni = [
