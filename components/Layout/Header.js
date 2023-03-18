@@ -47,16 +47,16 @@ const Header = () => {
                 </LinkScroll>
                 <LinkScroll
                   activeClass="active"
-                  to="academy"
+                  to="carreras"
                   spy={true}
                   smooth={true}
                   duration={1000}
                   onSetActive={() => {
-                    setActiveLink("academy");
+                    setActiveLink("carreras");
                   }}
                   className={
                     "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
-                    (activeLink === "academy"
+                    (activeLink === "carreras"
                       ? " text-orange-400 animation-active font-medium "
                       : " text-black-100 hover:text-orange-400 a")
                   }
