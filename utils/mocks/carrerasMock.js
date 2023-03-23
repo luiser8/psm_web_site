@@ -52,6 +52,23 @@ export default [
   },
   {
     id: 4,
+    name: "Ingeniería Electrónica",
+    image: "/assets/carreras/electronica-large.jpg",
+    detail: "electronica",
+    description:
+      "",
+    full_description: "La Ingeniería Eléctrica representa un campo de rápida expansión en el que continuamente se desarrollan nuevas y atractivas áreas, mientras que aquellas consideradas tradicionales encuentran día a día nuevas aplicaciones. El Ingeniero Electricista es un profesional con una fuerte formación sobre los Sistemas Energéticos. Esta carrera capacita para el trabajo con los medios electrotécnicos y sistemas empleados en la generación, transmisión, distribución y utilización de la energía eléctrica, especialmente en tareas de proyecto, montaje, mantenimiento y explotación, tanto en los sistemas de suministro eléctrico como en el equipamiento de las instalaciones industriales. La disciplina también está relacionada con los dispositivos componentes de los sistemas mencionados: transistores, circuitos integrados, antenas, dispositivos de memoria. Las áreas de especialización de la Ingeniería Eléctrica incluyen hoy —entre otras— a: sistemas de control automático, ingeniería biomédica, comunicaciones y procesamiento de señales, ingeniería de la computación, campos y ondas electromagnéticos, sistemas de energía y potencia eléctricas, fotónica, plasma y fusión controlada, estado sólido y microelectrónica.",
+    more: {
+      graduate_profile: "El Ingeniero Electricista, se encarga de la producción y distribución de la energía eléctrica. Se dedica al estudio de los sistemas e instalaciones eléctricas. Determina el tipo de máquina a utilizar según su rendimiento, capacidad, funcionalidad, reparación y mantenimiento. Su trabajo está en íntima relación con las actividades de áreas de generación, transmisión, consumo y control. Diseño y ejecución de proyectos eléctricos para edificaciones residenciales e industriales. El ingeniero electricista es un acelerador del crecimiento de empresas básicas del estado, constituyéndose un recurso humano indispensable para el logro de las metas tecnológicas y sociales que orientan los planes de la nación. ",
+      labor_field: "El egresado en ingeniería electrónica del PSM está capacitado fundamentalmente en las siguientes áreas: Sistemas digitales y computación, Sistemas de comunicaciones, Control de procesos de instrumentación. También figura como soporte a la ingeniería eléctrica, electro-medicina, bioingeniería informática y otros, que son unas de las bases sobre las cuales descansa el futuro desarrollo de la industria venezolana. Podrá desempeñarse en compañías que fabrican y/o distribuyen equipos eléctricos; compañías electrónicas de ensamblajes, de video, audio, petroleras; industrias manufactureras; aeropuertos y televisoras; empresas de telecomunicaciones.",
+      related_careers: [
+        "Electrónica Industrial", "Ingeniería Electrónica", "Ingeniería en Computación", "Mantenimiento de Equipos Eléctricos"
+      ],
+      pensum: "pensum.pdf"
+    }
+  },
+  {
+    id: 5,
     name: "Ingeniería Industrial",
     image: "/assets/carreras/industrial-large.jpg",
     detail: "industrial",
@@ -68,7 +85,7 @@ export default [
     }
   },
   {
-    id: 5,
+    id: 6,
     name: "Ingeniería en Mantenimiento Mecánico",
     image: "/assets/carreras/mantenimiento-large.jpg",
     detail: "mantenimiento",
@@ -85,7 +102,7 @@ export default [
     }
   },
   {
-    id: 6,
+    id: 7,
     name: "Ingeniería de Sistemas",
     image: "/assets/carreras/sistemas-large.jpg",
     detail: "sistemas",
@@ -102,7 +119,7 @@ export default [
     }
   },
   {
-    id: 7,
+    id: 8,
     name: "Ingeniería de Diseño Industrial",
     image: "/assets/carreras/diseno-large.jpg",
     detail: "diseno",
@@ -119,7 +136,7 @@ export default [
     }
   },
   {
-    id: 8,
+    id: 9,
     name: "Ingeniería Química",
     image: "/assets/carreras/quimica-large.jpg",
     detail: "quimica",
@@ -136,7 +153,7 @@ export default [
     }
   },
   {
-    id: 9,
+    id: 10,
     name: "Ingeniería de Petróleos",
     image: "/assets/carreras/petroleo-large.jpg",
     detail: "petroleo",
@@ -153,7 +170,7 @@ export default [
     }
   },
   {
-    id: 10,
+    id: 11,
     name: "Ingeniería Agronómica",
     image: "/assets/carreras/agronomica.jpg",
     detail: "agronomica",
