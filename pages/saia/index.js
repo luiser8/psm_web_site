@@ -53,7 +53,7 @@ const Saia = () => {
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
-              src="/assets/Home1.png"
+              src="/assets/saia/saia_step_0.png"
               alt="Academy"
               layout="responsive"
               quality={100}
