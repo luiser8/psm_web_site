@@ -41,9 +41,10 @@ const Saia = () => {
             )}
           </ul> */}
             <div className="col-end-10 col-start-12 font-medium flex justify-start items-center mt-28">
-              <Link href="https://saia2.psm.edu.ve">
-                <a target="_blank" className="text-black-100 mx-2 sm:mx-4 tracking-wide hover:text-orange-400 transition-all">
-                  Ir a S.A.I.A y ver más detalles
+              <Link href="/saia/detalle">
+              {/* href="https://saia2.psm.edu.ve" target="_blank" */}
+                <a  className="text-black-100 mx-2 sm:mx-4 tracking-wide hover:text-orange-400 transition-all">
+                  Más detalles
                 </a>
               </Link>
             </div>
@@ -52,7 +53,7 @@ const Saia = () => {
         <ScrollAnimationWrapper className="flex w-full justify-end">
           <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
             <Image
-              src="/assets/Home1.png"
+              src="/assets/saia/saia_step_0.png"
               alt="Academy"
               layout="responsive"
               quality={100}
