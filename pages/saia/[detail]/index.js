@@ -10,15 +10,15 @@ const index = () => {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{saiaMock.name}</h1>
-              <p className="mt-6 text-xl leading-8 text-gray-700">{saiaMock.description_1}</p>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{saiaMock[0].name}</h1>
+              <p className="mt-6 text-xl leading-8 text-gray-700">{saiaMock[0].description_1}</p>
             </div>
           </div>
         </div>
         <div className="-mt-12 -ml-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
             className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-            src={`${saiaMock.image}`}
+            src={`${saiaMock[0].image}`}
             alt=""
           />
         </div>
@@ -28,12 +28,12 @@ const index = () => {
               <ul role="list" className="mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
                   <span>
-                    <strong className="font-semibold text-gray-900">{saiaMock.description_2.title}: </strong> {saiaMock.description_2.body}
+                    <strong className="font-semibold text-gray-900">{saiaMock[0].description_2.title}: </strong> {saiaMock[0].description_2.body}
                   </span>
                 </li>
                 <li className="flex gap-x-3">
                   <span>
-                    <strong className="font-semibold text-gray-900">{saiaMock.description_3.title}: </strong> {saiaMock.description_3.body}
+                    <strong className="font-semibold text-gray-900">{saiaMock[0].description_3.title}: </strong> {saiaMock[0].description_3.body}
                   </span>
                 </li>
               </ul>
@@ -44,7 +44,7 @@ const index = () => {
               </p> */}
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">Ir a SAIA y empezar</h2>
               <div className="mt-6">
-                <Link href={`${saiaMock.url}`}>
+                <Link href={`${saiaMock[0].url}`}>
                   <a target="_blank" className="text-black-100 mx-2 sm:mx-4 tracking-wide hover:text-orange-400 transition-all">
                     Abrir enlace
                   </a>
@@ -58,4 +58,4 @@ const index = () => {
   )
 }
 
-export default index
+export default index;

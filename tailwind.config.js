@@ -83,5 +83,7 @@ module.exports = {
       boxShadow: ["active", "hover"],
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 };

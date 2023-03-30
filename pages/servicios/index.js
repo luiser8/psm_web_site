@@ -25,7 +25,7 @@ const Servicios = () => {
               Servicios Estudiantiles
             </motion.h3>
             <motion.p className="leading-normal mx-auto my-2 w-10/12 sm:w-7/12 lg:w-6/12" variants={scrollAnimation}>
-            El Instituto Universitario Politécnico "Santiago Mariño", ofrece al estudiante asistencia individual y colectiva, con el objetivo de satisfacer sus necesidades médico - odontológicas, deportivas, culturales, recreativas y de orientación.
+              El Instituto Universitario Politécnico "Santiago Mariño", ofrece al estudiante asistencia individual y colectiva, con el objetivo de satisfacer sus necesidades médico - odontológicas, deportivas, culturales, recreativas y de orientación.
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
@@ -33,35 +33,6 @@ const Servicios = () => {
               <Maps className="w-auto h-auto mx-auto" />
             </motion.div>
           </ScrollAnimationWrapper>
-          {/* <ScrollAnimationWrapper>
-            <motion.div className="w-full flex justify-evenly items-center mt-4 flex-wrap lg:flex-nowrap" variants={scrollAnimation}>
-              <img
-                src="/assets/Icon/amazon.png"
-                className="h-14 w-auto mt-4 lg:mt-2"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/netflix.png"
-                className="h-14 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/reddit.png"
-                className="h-12 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/discord.png"
-                className="h-14 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
-              <img
-                src="/assets/Icon/spotify.png"
-                className="h-12 w-auto mt-2 lg:mt-0"
-                alt=""
-              />
-            </motion.div>
-          </ScrollAnimationWrapper> */}
         </div>
         {/* <div className="flex flex-col w-full" id="testimoni">
           <ScrollAnimationWrapper>
