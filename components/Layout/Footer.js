@@ -1,97 +1,78 @@
 import React from "react";
-import Facebook from "../../public/assets/Icon/facebook.svg";
-import Twitter from "../../public/assets/Icon/twitter.svg";
-import Instagram from "../../public/assets/Icon/instagram.svg";
+import Link from "next/link";
+import footerMock from "../../utils/mocks/footerMock";
+
 const Footer = () => {
   return (
-    <div className="bg-white-300 py-24">
-      <div className="max-w-screens w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
-        <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
-          <img className="h-10 w-auto mb-6" src="/assets/Logo.png" alt="" />
-          <p className="mb-16">
-            <strong className="font-medium">Politécnico Santiago Mariño</strong> le ofrece la oportunidad de graduarse en alguna de las siguientes áreas: Arquitectura, Ingeniería Civil, Eléctrica, Electrónica, Industrial, Mantenimiento mecánico, Sistemas, Diseño industrial, Química entre otras
-          </p>
-          <div className="flex w-full mt-16 mb-6 -mx-2">
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Facebook className="h-6 w-6" />
-            </div>
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Twitter className="h-6 w-6" />
-            </div>
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Instagram className="h-6 w-6" />
-            </div>
+
+    <footer className="bg-gradient-to-b from-white-300 to-white-500">
+      <div className="max-w-screens w-full mx-auto">
+        <div className="grid grid-cols-2 gap-8 py-6 lg:py-8 md:grid-cols-4 px-6 sm:px-8 lg:px-16">
+          <div>
+            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">{footerMock[0].name}</h2>
+            <ul className="text-black-500 dark:text-black-400 font-medium">
+              {Object.keys(footerMock[0].elements).map((item, key) => (
+                <li key={key} className="mb-4">
+                  <Link href={`${footerMock[0].link}/${footerMock[0].elements[item].link}`}>
+                    <a className="hover:underline">{footerMock[0].elements[item].name}</a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
-          <p className="text-gray-600">©{new Date().getFullYear()} - Politécnico Santiago Mariño</p>
+          <div>
+            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">{footerMock[1].name}</h2>
+            <ul className="text-black-500 dark:text-black-400 font-medium">
+              {Object.keys(footerMock[1].elements).map((item, key) => (
+                <li key={key} className="mb-4">
+                  <Link href={`${footerMock[1].link}/${footerMock[1].elements[item].link}`}>
+                    <a target="_blank" className="hover:underline">{footerMock[1].elements[item].name}</a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">{footerMock[2].name}</h2>
+            <ul className="text-black-500 dark:text-black-400 font-medium">
+              {Object.keys(footerMock[2].elements).map((item, key) => (
+                <li key={key} className="mb-4">
+                  <Link href={`${footerMock[2].link}/${footerMock[2].elements[item].link}`}>
+                    <a className="hover:underline">{footerMock[2].elements[item].name}</a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">{footerMock[3].name}</h2>
+            <ul className="text-black-500 font-medium">
+              {Object.keys(footerMock[3].elements).map((item, key) => (
+                <li key={key} className="mb-4">
+                  <Link href={`${footerMock[3].link}/${footerMock[3].elements[item].link}`}>
+                    <a className="hover:underline">{footerMock[3].elements[item].name}</a>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
-        {/* <div className="row-span-1 sm:col-span-1 sm:col-start-7 sm:col-end-9 flex flex-col">
-          <p className="text-black-100 mb-4 font-medium text-lg">¿Quieres formar parte de nuestro equipo?</p>
-        </div> */}
-        <div className="row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
-          <p className="text-black-100 mb-4 font-medium text-lg">Nuestras sedes</p>
-          <ul className="text-black-100 ">
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-            Maracaibo{" "}
-            </li>
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-            Cabimas{" "}
-            </li>
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-            Ciudad Ojeda{" "}
-            </li>
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-            Barinas{" "}
-            </li>
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-            Merida{" "}
-            </li>
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-            San Cristóbal{" "}
-            </li>
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-            Caracas{" "}
-            </li>
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-            Valencia{" "}
-            </li>
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-            Maracay{" "}
-            </li>
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-            Barcelona{" "}
-            </li>
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-            Maturin{" "}
-            </li>
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-            Puerto Ordaz{" "}
-            </li>
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-            Porlamar{" "}
-            </li>
-          </ul>
-        </div>
-        <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Pólizas de seguro</p>
-          <ul className="text-black-100">
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-              Accidentes personales{" "}
-            </li>
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-              Programa de culminación de estudios{" "}
-            </li>
-          </ul>
-        </div>
-        <div className="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
-          <p className="text-black-100 mb-4 font-medium text-lg">Programas de orientación</p>
-          <ul className="text-black-100">
-            <li className="my-2 hover:text-orange-400 cursor-pointer transition-all">
-              Académica, Vocacional y Psicológica{" "}
-            </li>
-          </ul>
+        <div className="py-6 md:flex md:items-center md:justify-between px-6 sm:px-8 lg:px-16">
+          <span className="text-sm text-black-500 text-black-300 sm:text-center">©{new Date().getFullYear()} - {footerMock[4].name}
+          </span>
+          <div className="flex mt-4 space-x-6 sm:justify-center md:mt-0">
+            {Object.keys(footerMock[4].elements).map((item, key) => (
+              <Link key={key} href={`${footerMock[4].elements[item].link}`}>
+                <a target="_blank" alt={footerMock[4].elements[item].name} className="text-black-400 hover:text-gray-900 dark:hover:text-white">
+                  {footerMock[4].elements[item].icon}
+                  <span className="sr-only">{footerMock[4].elements[item].name}</span>
+                </a>
+              </Link>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

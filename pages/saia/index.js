@@ -20,7 +20,7 @@ const Saia = () => {
               La Educación a distancia es una modalidad de enseñanza y aprendizaje cuya característica principal es la separación física de los participantes y facilitadores.
             </h3>
             <p className="mt-8 text-black-100">
-              La Coordinación S.A.I.A. (Sistema de Aprendizajes Interactivos a Distancia) es una unidad adscrita a la División Académica, fundamentada en los estudios asistidos por las nuevas tecnologías educativas que se generan a partir de un campo informático en el cual participa la comunidad universitaria bajo una modalidad de estudios semi-presenciales.
+            S.A.I.A., está fundamentado en las ventajas que ofrece la educación en línea a través de las redes de computadoras, haciendo uso constante de las facilidades que ofrece Internet y otras tecnologías, lográndose así un ambiente educativo altamente colaborativo e interactivo donde el estudiante es el responsable de su ritmo de aprendizaje, estableciendo él mismo un horario a su conveniencia y sobre todo permitiéndole el acceso a una mayor cantidad de información actualizada y precisa en cualquier parte del mundo; lo que se traduce en el mejoramiento continuo en la calidad de la educación ofrecida por la Institución.
             </p>
             {/* <ul className="text-black-500 self-start list-inside ml-8">
             {features.map((feature, index) => (

@@ -1,4 +1,4 @@
-export default
+export default [
     {
         id: 1,
         name: "Sistema de Aprendizajes Interactivos a Distancia",
@@ -47,3 +47,4 @@ export default
             image: "/assets/saia/saia_step_4.jpg",
         },
     }
+];
