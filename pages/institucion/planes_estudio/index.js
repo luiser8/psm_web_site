@@ -101,7 +101,7 @@ const index = () => {
                 <div className="mt-10">
                     <button
                         type="submit"
-                        className="block w-full rounded-md bg-indigo-900 px-3.5 py-2.5 text-center text-sm font-semibold text-white-100 shadow-sm hover:bg-indigo-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-900"
+                        className="block w-full rounded-md bg-indigo-900 px-3.5 py-4 text-center text-sm font-semibold text-white-100 shadow-sm hover:bg-indigo-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-900"
                     >
                         Enviar
                     </button>

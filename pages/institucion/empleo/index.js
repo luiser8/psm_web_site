@@ -97,7 +97,7 @@ const index = () => {
                                     </label>
                                     <p className="pl-1">o arrastrar y soltar</p>
                                 </div>
-                                <p className="text-xs leading-5 text-gray-600">PDF, WORD hasta 10MB</p>
+                                <p className="text-xs leading-5 text-gray-600">PDF, DOC, DOCX hasta 5MB</p>
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ const index = () => {
                 <div className="mt-10">
                     <button
                         type="submit"
-                        className="block w-full rounded-md bg-indigo-900 px-3.5 py-2.5 text-center text-sm font-semibold text-white-100 shadow-sm hover:bg-indigo-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-900"
+                        className="block w-full rounded-md bg-indigo-900 px-3.5 py-4 text-center text-sm font-semibold text-white-100 shadow-sm hover:bg-indigo-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-900"
                     >
                         Enviar
                     </button>
