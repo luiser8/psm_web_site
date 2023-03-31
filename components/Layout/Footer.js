@@ -13,7 +13,7 @@ const Footer = () => {
             <ul className="text-black-500 dark:text-black-400 font-medium">
               {Object.keys(footerMock[0].elements).map((item, key) => (
                 <li key={key} className="mb-4">
-                  <Link href={`${footerMock[0].link}/${footerMock[0].elements[item].link}`}>
+                  <Link href={`/${footerMock[0].link}/${footerMock[0].elements[item].link}`} replace>
                     <a className="hover:underline">{footerMock[0].elements[item].name}</a>
                   </Link>
                 </li>
@@ -25,7 +25,7 @@ const Footer = () => {
             <ul className="text-black-500 dark:text-black-400 font-medium">
               {Object.keys(footerMock[1].elements).map((item, key) => (
                 <li key={key} className="mb-4">
-                  <Link href={`${footerMock[1].link}/${footerMock[1].elements[item].link}`}>
+                  <Link href={`/${footerMock[1].link}/${footerMock[1].elements[item].link}`}>
                     <a target="_blank" className="hover:underline">{footerMock[1].elements[item].name}</a>
                   </Link>
                 </li>
@@ -37,7 +37,7 @@ const Footer = () => {
             <ul className="text-black-500 dark:text-black-400 font-medium">
               {Object.keys(footerMock[2].elements).map((item, key) => (
                 <li key={key} className="mb-4">
-                  <Link href={`${footerMock[2].link}/${footerMock[2].elements[item].link}`}>
+                  <Link href={`/${footerMock[2].link}/${footerMock[2].elements[item].link}`}>
                     <a className="hover:underline">{footerMock[2].elements[item].name}</a>
                   </Link>
                 </li>
@@ -49,7 +49,7 @@ const Footer = () => {
             <ul className="text-black-500 font-medium">
               {Object.keys(footerMock[3].elements).map((item, key) => (
                 <li key={key} className="mb-4">
-                  <Link href={`${footerMock[3].link}/${footerMock[3].elements[item].link}`}>
+                  <Link href={`/${footerMock[3].link}/${footerMock[3].elements[item].link}`}>
                     <a className="hover:underline">{footerMock[3].elements[item].name}</a>
                   </Link>
                 </li>
@@ -62,7 +62,7 @@ const Footer = () => {
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center md:mt-0">
             {Object.keys(footerMock[4].elements).map((item, key) => (
-              <Link key={key} href={`${footerMock[4].elements[item].link}`}>
+              <Link key={key} href={`/${footerMock[4].elements[item].link}`}>
                 <a target="_blank" alt={footerMock[4].elements[item].name} className="text-black-400 hover:text-gray-900 dark:hover:text-white">
                   {footerMock[4].elements[item].icon}
                   <span className="sr-only">{footerMock[4].elements[item].name}</span>
