@@ -4,6 +4,7 @@ import getScrollAnimation from "../../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "../../components/Layout/ScrollAnimationWrapper";
 import Carousel from "../../components/Layout/Carousel";
 import Image from "next/image";
+import institucionMock from "../../utils/mocks/institucionMock";
 
 const Institucion = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -16,7 +17,7 @@ const Institucion = () => {
       >
         <ScrollAnimationWrapper>
           <motion.div className="h-full w-full" variants={scrollAnimation}>
-            <Carousel />
+            <Carousel images={institucionMock[0].carousel} />
           </motion.div>
         </ScrollAnimationWrapper>
         <div
@@ -29,7 +30,7 @@ const Institucion = () => {
           <ScrollAnimationWrapper className="flex w-full justify-end">
             <motion.div className="h-full w-full p-4" variants={scrollAnimation}>
               <Image
-                src="/assets/Home2.png"
+                src={institucionMock[0].image}
                 alt="Academy"
                 layout="responsive"
                 quality={100}
@@ -42,10 +43,10 @@ const Institucion = () => {
           <ScrollAnimationWrapper>
             <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
               <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-100">
-                Somos una comunidad que reúne a profesores, estudiantes y personal administrativo
+                {institucionMock[0].title}
               </h3>
               <p className="my-2 text-black-100">
-                En la tarea de buscar la verdad y afianzar los valores trascendentes del hombre. Colaboramos en la orientación de la vida del país mediante el aporte doctrinario al esclarecimiento de los valores nacionales.
+                {institucionMock[0].description}
               </p>
             </motion.div>
           </ScrollAnimationWrapper>
