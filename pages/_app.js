@@ -1,5 +1,6 @@
 import "../styles/tailwind.css";
 import "../styles/slick.css";
+import "../styles/backdrop.css";
 import Layout from "../components/Layout/Layout";
 import SeoHead from "../components/Seo/SeoHead";
 

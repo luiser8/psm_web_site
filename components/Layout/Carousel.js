@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import Swipe from "react-easy-swipe";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
+import BackDrop from "./BackDrop";
 
 export default function Carousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -36,7 +37,7 @@ export default function Carousel() {
 
   useEffect(() => {
     const interval = setTimeout(() =>
-        setCurrentSlide((current) =>
+      setCurrentSlide((current) =>
         current === images.length - 1 ? 0 : current + 1), 10000);
     return () => {
       clearTimeout(interval);
@@ -56,9 +57,10 @@ export default function Carousel() {
           onSwipeRight={handlePrevSlide}
           className="relative z-10 w-full h-auto"
         >
-          {images.map((image, index) => {
-            if (index === currentSlide) {
-              return (
+          {images.length !== 0 ? (
+            images.map((image, index) => {
+              if (index === currentSlide) {
+                return (
                   <img
                     key={index}
                     src={image.url}
@@ -66,9 +68,12 @@ export default function Carousel() {
                     className="h-auto w-auto transition-all"
                     alt="Image for carousel"
                   />
-              );
-            }
-          })}
+                );
+              }
+            })
+          ) : (
+            <BackDrop position_dad="absolute" />
+          )}
         </Swipe>
       </div>
       <AiOutlineRight
