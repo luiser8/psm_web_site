@@ -4,9 +4,9 @@ import { useRouter } from "next/router";
 import { Link as LinkScroll } from "react-scroll";
 //import ButtonOutline from "../misc/ButtonOutline.";
 
-const Header = () => {
+const Header = ({ activeLink, setActiveLink }) => {
   const router = useRouter();
-  const [activeLink, setActiveLink] = useState("institution");
+  //const [activeLink, setActiveLink] = useState("institution");
   const [scrollActive, setScrollActive] = useState(false);
 
   useEffect(() => {
