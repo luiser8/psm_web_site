@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
+import { imageConfigDefault } from "next/dist/shared/lib/image-config";
 
 function ImagesCarousel({ images, currentSlide, handleNextSlide, handlePrevSlide }) {
     const [loading, setLoading] = useState(true);
@@ -41,7 +42,7 @@ function ImagesCarousel({ images, currentSlide, handleNextSlide, handlePrevSlide
                             <ScrollAnimationWrapper>
                                 <motion.div className="h-full w-full">
                                     <Link key={image.link} legacyBehavior passHref href={image.link} target={image.target}>
-                                        <a target={`${image.link === "" ? '' : image.target}`} rel="noopener noreferrer" className={`${image.link === "" ? 'cursor-default' : 'cursor-pointer'}`}>
+                                        <a title={image.titleLink} target={image.target} rel="noopener noreferrer" className={`${image.link === "" ? 'cursor-default' : 'cursor-pointer'}`}>
                                             <Image
                                                 src={image.url}
                                                 height={660}
@@ -49,7 +50,8 @@ function ImagesCarousel({ images, currentSlide, handleNextSlide, handlePrevSlide
                                                 alt="Carousel"
                                                 layout="responsive"
                                                 quality={100}
-                                                objectFit="contain"/>
+                                                objectFit="contain"
+                                                />
                                         </a>
                                     </Link>
                                 </motion.div>
