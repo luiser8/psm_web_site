@@ -20,7 +20,7 @@ function ImagesCarousel({ images, currentSlide, handleNextSlide, handlePrevSlide
     }, []);
 
     return (
-        <div className="w-full h-[66vh] flex overflow-hidden relative m-auto">
+        <div className="w-full h-[65vh] flex overflow-hidden relative m-auto">
             <Swipe
                 onSwipeLeft={handleNextSlide}
                 onSwipeRight={handlePrevSlide}
@@ -51,7 +51,8 @@ function ImagesCarousel({ images, currentSlide, handleNextSlide, handlePrevSlide
                                                 layout="responsive"
                                                 quality={100}
                                                 objectFit="contain"
-                                                />
+                                                className="h-auto w-auto transition-all"
+                                            />
                                         </a>
                                     </Link>
                                 </motion.div>

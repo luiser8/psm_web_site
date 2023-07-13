@@ -62,7 +62,7 @@ const Footer = () => {
           </span>
           <div className="flex mt-4 space-x-6 sm:justify-center md:mt-0">
             {Object.keys(footerMock[4].elements).map((item, key) => (
-              <Link key={key} href={`/${footerMock[4].elements[item].link}`}>
+              <Link key={key} href={`${footerMock[4].elements[item].link}`}>
                 <a target="_blank" alt={footerMock[4].elements[item].name} className="text-black-400 hover:text-gray-900 dark:hover:text-white">
                   {footerMock[4].elements[item].icon}
                   <span className="sr-only">{footerMock[4].elements[item].name}</span>
