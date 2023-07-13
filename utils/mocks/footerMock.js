@@ -143,12 +143,12 @@ export default [
                 link: "https://www.instagram.com/psmbarcelona/",
                 icon: <Instagram className="h-6 w-6" />
             },
-            {
-                id: 3,
-                name: "Twitter",
-                link: "https://twitter.com/PSMSanCristobal",
-                icon: <Twitter className="h-6 w-6" />
-            }
+            // {
+            //     id: 3,
+            //     name: "Twitter",
+            //     link: "https://twitter.com/PSMSanCristobal",
+            //     icon: <Twitter className="h-6 w-6" />
+            // }
         ]
     }
 ]
