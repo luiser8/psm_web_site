@@ -23,7 +23,7 @@ const Header = ({ activeLink, setActiveLink }) => {
           (scrollActive ? " shadow-md pt-0" : " pt-0")
         }
       >
-        <nav className="max-w-screen px-8 sm:px-8 lg:px-8 mx-auto py-3 sm:py-4">
+        <nav className="max-w-screen px-8 sm:px-8 lg:px-8 mx-auto py-2 sm:py-4">
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-100 items-center">
             {router.pathname === "/" ? (
               <>
@@ -121,8 +121,6 @@ const Header = ({ activeLink, setActiveLink }) => {
             ) : (
               <Link href="/" className={"px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-orange-400 animation-active font-medium"}>Volver</Link>
             )}
-
-
           </ul>
           {/* <div className="col-start-10 col-end-12 font-medium flex justify-end items-center">
             <Link href="/">
