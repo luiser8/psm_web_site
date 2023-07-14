@@ -5,6 +5,7 @@ import ScrollAnimationWrapper from "../../components/Layout/ScrollAnimationWrapp
 import Carousel from "../../components/Layout/Carousel";
 import Image from "next/image";
 import institucionMock from "../../utils/mocks/institucionMock";
+import Link from "next/link";
 
 const Institucion = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -41,13 +42,29 @@ const Institucion = () => {
             </motion.div>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
-            <motion.div className="flex flex-col items-end justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
+            <motion.div className="flex flex-col justify-center ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
               <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-100">
                 {institucionMock[0].title}
               </h3>
               <p className="my-2 text-black-100">
                 {institucionMock[0].description}
               </p>
+              <p className="my-2 text-black-100">
+                {institucionMock[0].description2}
+              </p>
+              <p className="my-2 text-black-100">
+                {institucionMock[0].description3}
+              </p>
+              <p className="my-2 text-black-100">
+                {institucionMock[0].description4}
+              </p>
+              <Link key={institucionMock[0].id} legacyBehavior passHref href={institucionMock[0].link} target={institucionMock[0].target}>
+                <a target={institucionMock[0].target} rel="noopener noreferrer" className={`${institucionMock[0].link === "" ? 'cursor-default' : 'cursor-pointer'}`}>
+                  <p className="my-2 text-black-100">
+                    {institucionMock[0].description5} <b className=""><i>{institucionMock[0].linkText}</i></b>
+                  </p>
+                </a>
+              </Link>
             </motion.div>
           </ScrollAnimationWrapper>
         </div>
