@@ -19,15 +19,17 @@ export default [
                 cloudinary: "",
                 link: "https://docs.google.com/forms/d/e/1FAIpQLSeC-EAmUJhGm5eEX7U4lqpY6pnYFeS9elYMgGPSE-LmGdsyxw/viewform?pli=1",
                 titleLink: "Ir al formulario de registro",
-                target: "_blank"
+                target: "_blank",
+                iframe: "",
             },
             {
                 id: 1,
                 url: '/assets/eventos/evento2.jpg',
                 cloudinary: "https://res.cloudinary.com/luiser85/image/upload/v1674132064/web1_n55v2c.png",
-                link: "https://www.youtube.com/watch?v=WNsJKB19ot8",
+                link: "https://www.youtube.com/embed/WNsJKB19ot8",
                 titleLink: "Ver transmisión en vivo",
-                target: "_blank"
+                target: "_self",
+                iframe: "https://www.youtube.com/embed/WNsJKB19ot8",
             },
             {
                 id: 2,
@@ -35,7 +37,8 @@ export default [
                 cloudinary: "https://res.cloudinary.com/luiser85/image/upload/v1674132079/web2_tnekov.png",
                 link: "https://www.youtube.com/watch?v=WNsJKB19ot8",
                 titleLink: "Ver transmision en vivo",
-                target: "_blank"
+                target: "_self",
+                iframe: "https://www.youtube.com/embed/WNsJKB19ot8",
             },
             // {
             //     id: 3,

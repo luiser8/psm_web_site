@@ -5,9 +5,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
 import ScrollAnimationWrapper from "./ScrollAnimationWrapper";
-import { imageConfigDefault } from "next/dist/shared/lib/image-config";
-
-function ImagesCarousel({ images, currentSlide, handleNextSlide, handlePrevSlide }) {
+function ImagesCarousel({ images, currentSlide, handleNextSlide, handlePrevSlide, handleStopSlide }) {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -30,19 +28,22 @@ function ImagesCarousel({ images, currentSlide, handleNextSlide, handlePrevSlide
                 {images.map((image, index) => {
                     if (index === currentSlide) {
                         return (
-                            // <a href={image.link} target={image.target}>
-                            //     <img
-                            //         key={index}
-                            //         src={image.url}
-                            //         layout="fill"
-                            //         className="h-auto w-auto transition-all"
-                            //         alt="Image for carousel"
-                            //     />
-                            // </a>
                             <ScrollAnimationWrapper>
                                 <motion.div className="h-full w-full">
-                                    <Link key={image.link} legacyBehavior passHref href={image.link} target={image.target}>
-                                        <a title={image.titleLink} target={image.target} rel="noopener noreferrer" className={`${image.link === "" ? 'cursor-default' : 'cursor-pointer'}`}>
+                                    <Link
+                                        key={image.link}
+                                        legacyBehavior
+                                        passHref
+                                        href={image.iframe === "" ? image.link : "#"}
+                                        target={image.target}
+                                    >
+                                        <a
+                                            title={image.titleLink}
+                                            target={image.target}
+                                            rel="noopener noreferrer"
+                                            className={`${image.link === "" ? 'cursor-default' : 'cursor-pointer'}`}
+                                            onClick={() => handleStopSlide(image.iframe, index)}
+                                        >
                                             <Image
                                                 src={image.url}
                                                 height={660}
