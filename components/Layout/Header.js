@@ -24,7 +24,7 @@ const Header = ({ activeLink, setActiveLink }) => {
         }
       >
         <nav className="max-w-screen px-8 sm:px-8 lg:px-8 mx-auto py-2 sm:py-4">
-          <ul className="hidden lg:flex col-start-4 col-end-8 text-black-100 items-center">
+          <ul className="hidden xs:flex col-start-4 col-end-8 text-black-100 items-center">
             {router.pathname === "/" ? (
               <>
                 <LinkScroll
@@ -45,6 +45,24 @@ const Header = ({ activeLink, setActiveLink }) => {
                 >
                   La Institución
                 </LinkScroll>
+                {/* <LinkScroll
+                  activeClass="active"
+                  to="eventos"
+                  spy={true}
+                  smooth={true}
+                  duration={1000}
+                  onSetActive={() => {
+                    setActiveLink("eventos");
+                  }}
+                  className={
+                    "px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative" +
+                    (activeLink === "eventos"
+                      ? " text-orange-400 animation-active font-medium "
+                      : " text-black-100 hover:text-orange-400 a")
+                  }
+                >
+                  Eventos
+                </LinkScroll> */}
                 <LinkScroll
                   activeClass="active"
                   to="carreras"

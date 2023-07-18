@@ -6,7 +6,7 @@ const Layout = ({ children, activeLink, setActiveLink }) => {
   return (
     <>
       <Header activeLink={activeLink} setActiveLink={setActiveLink} />
-      {children}
+        {children}
       <Footer />
     </>
   );

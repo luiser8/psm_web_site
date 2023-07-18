@@ -18,6 +18,14 @@ module.exports = {
       "orange-md": "0px 20px 40px -15px rgba(245,56,56,0.81) ",
       none: "none",
     },
+    screens: {
+      'xs': '475px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     colors: {
       transparent: "transparent",
       black: {

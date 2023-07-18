@@ -49,7 +49,7 @@ const Eventos = () => {
   const [sliderRef, setSliderRef] = useState(null);
 
   return (
-    <div className="w-full py-12 mb-16 bg-gradient-to-b from-white-300 to-white-500" id="carreras">
+    <div className="w-full py-12 mb-16 bg-gradient-to-b from-white-300 to-white-500" id="eventos">
       {/* bg-gradient-to-b from-white-300 to-white-500  */}
       <div className="max-w-screen py-12 px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
