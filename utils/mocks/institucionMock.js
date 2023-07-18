@@ -29,7 +29,7 @@ export default [
                 link: "https://www.youtube.com/embed/WNsJKB19ot8",
                 titleLink: "Ver transmisión en vivo",
                 target: "_self",
-                iframe: "https://www.youtube.com/embed/Vl1I-u8tmyY",
+                iframe: "https://www.youtube.com/embed/HW7uI6KdAtU",
             },
             {
                 id: 2,
@@ -38,7 +38,7 @@ export default [
                 link: "https://www.youtube.com/watch?v=WNsJKB19ot8",
                 titleLink: "Ver transmision en vivo",
                 target: "_self",
-                iframe: "https://www.youtube.com/embed/Vl1I-u8tmyY",
+                iframe: "https://www.youtube.com/embed/HW7uI6KdAtU",
                 //
             },
             // {
