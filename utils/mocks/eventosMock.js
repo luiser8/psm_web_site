@@ -3,7 +3,7 @@ export default [
       id: 1,
       name: "MSc. CARMEN OLIVARES",
       image: "/assets/eventos/carousel_eventos/1.png",
-      detail: "arquitectura",
+      detail: "1",
       description:
         "",
         professions: [
@@ -23,7 +23,7 @@ export default [
       id: 2,
       name: "ING. IZRRAEL SANDREA",
       image: "/assets/eventos/carousel_eventos/2.png",
-      detail: "civil",
+      detail: "2",
       description:
         "",
         professions: [
@@ -42,7 +42,7 @@ export default [
       id: 3,
       name: "DR. JORGE ALDEA",
       image: "/assets/eventos/carousel_eventos/3.png",
-      detail: "electrica",
+      detail: "3",
       description:
         "",
         professions: [
@@ -61,7 +61,7 @@ export default [
       id: 4,
       name: "Soc. JORGE MARTINEZ",
       image: "/assets/eventos/carousel_eventos/4.png",
-      detail: "electronica",
+      detail: "4",
       description:
         "",
         professions: [
@@ -80,7 +80,7 @@ export default [
       id: 5,
       name: "DR. MARCO GARCÍA",
       image: "/assets/eventos/carousel_eventos/5.png",
-      detail: "industrial",
+      detail: "5",
       description:
         "",
         professions: [
@@ -101,7 +101,7 @@ export default [
       id: 6,
       name: "MSc. SAMARIS PAULO",
       image: "/assets/eventos/carousel_eventos/6.png",
-      detail: "mantenimiento",
+      detail: "6",
       description:
         "",
         professions: [
