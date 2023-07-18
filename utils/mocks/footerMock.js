@@ -140,7 +140,7 @@ export default [
             {
                 id: 2,
                 name: "Instagram",
-                link: "https://www.instagram.com/psmbarcelona/",
+                link: "https://www.instagram.com/psmcaracasoficial/",
                 icon: <Instagram className="h-6 w-6" />
             },
             // {
