@@ -1,119 +1,149 @@
 export default [
     {
       id: 1,
-      name: "MSc. CARMEN OLIVARES",
-      image: "/assets/eventos/carousel_eventos/1.png",
+      name: "GNRAL. MUFID HOUMEIDAN",
+      image: "/assets/eventos/carousel_eventos/7.png",
       detail: "1",
       description:
         "",
         professions: [
-            { name: "Ingeniería Química - Politécnico Santiago Mariño" },
-            { name: "MSc. Ciencias de Polímeros, Freie Universität Berlin, Humboldt Universität" },
-            { name: "zu Berlin, Technische Universität Berlin, Universität Potsdam" }
+            { name: "Ingeniero en Petróleo - Politécnico Santiago Mariño" }
         ],
         experiences: [
-            { name: "Docente en el Politécnico Santiago Mariño hasta el 2019" },
-            { name: "Jurado Evaluador y Tutora Académica en el Politécnico Santiago Mariño" },
-            { name: "Coordinadora de Línea de Investigación de Ingeniería Química en el Politécnico Santiago Mariño" },
-            { name: "Estudiante Asistente, Freie Universität Berlin - Apoyo en la síntesis y análisis de polímeros" },
-            { name: "Asociado Científico, Freie Universität Berlin, Fraunhofer-Institut für Angewandte Polymerforschung - Actividades docentes relacionadas con temas de la química macromolecular. - Supervisión de proyectos de investigación. - Participación en los proyectos de Copolimerización con dióxido de carbono y epóxidos, desarrollo de materiales a base de lignina, copolímeros de bloque sustentables." }
+            { name: "Presidente de Fire School International" },
+            { name: "Instructor y Director de Cursos Especiales de la Universidad de Texas A&M TEEX" },
+            { name: "Primer Comandante del Cuerpo de Bomberos de Cabimas Zulia" },
+            { name: "Instructor Certificado NFPA1041" }
         ]
     },
     {
       id: 2,
-      name: "ING. IZRRAEL SANDREA",
-      image: "/assets/eventos/carousel_eventos/2.png",
+      name: "MBA. JAVIER SANDOVAL",
+      image: "/assets/eventos/carousel_eventos/8.png",
       detail: "2",
       description:
         "",
         professions: [
-            { name: "Ingeniero en Sistemas- Politécnico Santiago Mariño" },
-            { name: "Ingenierode Software" }
+            { name: "TSU en Electricidad - Mención Electrónica - Instituto Universitario Tecnológico 'Isaac Newton'" },
+            { name: "Ing. En Electrónica - Instituto Universitario Politécnico Santiago Mariño" },
+            { name: "MBA. En Administración - Mención Gerencia de empresas - Universidad Metropolitana" }
         ],
         experiences: [
-            { name: "Ingeniero de Software en Polway Limited - Dublín, Irlanda." },
-            { name: "Co-Fundador y Desarrollador Front-End vTutor Education Dublín, Irlanda." },
+            { name: "Superintendente de Mantenimiento en la Cervecería Polar, C.A - Planta Oriente." },
+            { name: "Especialista de Automatización y Analista de Mantenimiento Eléctrico en la Cervecería Polar, C.A - Planta Oriente." },
             { name: "Gerente de Desarrollo de Proyectos. Projects 24 - Mérida / Venezuela" },
-            { name: "Experto en ayudar a empresas de ingeniería de software a crear aplicaciones web utilizando Node.js, React, JavaScript, bases de datos NoSQL || SQL, HTML5 y CSS. de EyP/ Corporación Venezolana del Petróleo." },
-            { name: "Experto en servicios de AWS, incluyendo RDS, instancias de EC2, lambdas, lightsail y gestión de costos, entre otros." }
+            { name: "Diferentes diplomados en: Ingenieria de Confiabilidad y Gestión de Mantenimiento, Estudios Avanzados en Formación Gerencial, Formación en Gerencia Internacional." }
         ]
     },
     {
       id: 3,
-      name: "DR. JORGE ALDEA",
-      image: "/assets/eventos/carousel_eventos/3.png",
+      name: "MSc. MARCOS AMASIFUEN",
+      image: "/assets/eventos/carousel_eventos/9.png",
       detail: "3",
       description:
         "",
         professions: [
-            { name: "Arquitecto - Universidad del Zulia" },
-            { name: "Máster en Gerencia de Proyectos Construcción" },
-            { name: "Especialización en Docencia para la Educación Superior." },
-            { name: "Doctor en Arquitectura" }
+            { name: "Ingeniero de Sistemas - Universidad Nacional de Huancavelica - Perú" },
+            { name: "Máster en Dirección y Gestión de Proyectos Universidad de Alcalá - Madrid España" }
         ],
         experiences: [
-            { name: "Se desenvuelve como proyectista, investigador y docente en las escuelas de Diseño gráfico y arquitectura de la Universidad Rafael Urdaneta, la Universidad del Zulia y el bachelor de Diseño y el de Ingeniería de Organización Industrial de la Universitat de Carlemany en Andorra." },
-            { name: "Ha sido jurado invitado en la Bienal de Arquitectura de Maracaibo, la Universidad de la Costa y la Universidad Piloto de Colombia." },
-            { name: "Ha tenido una destacada participación en concursos nacionales e internacionales de arquitectura entre los que se encuentran la remodelación de la Plaza Yépes, el Museo de Ciencias y Tecnologías del Estado Mérida, el Parque Metropolitano de Maracay, entre otros." }
+            { name: "Competente en proyectos de desarrollo económico, tecnológico y social con alta capacidad de planificación, ejecución y seguimiento de proyectos bajo el enfoque del Project Management Intitute (proyectos predictivos) y enfoque de Scrum Manager (gestión agile predictivos)." },
+            { name: "Gerente de proyectos tecnológicos cuántica group SAC." },
+            { name: "Responsable regional del programa PANSOY." },
+            { name: "Especialista en gestión de proyectos de innovación CID - PERSPEKTIVA." }
         ]
     },
     {
       id: 4,
-      name: "Soc. JORGE MARTINEZ",
-      image: "/assets/eventos/carousel_eventos/4.png",
+      name: "MSc. GABRIELLE ROMERO",
+      image: "/assets/eventos/carousel_eventos/10.png",
       detail: "4",
       description:
         "",
         professions: [
-            { name: "Sociólogo - Universidad Central de Venezuela" },
-            { name: "Diplomado en: Gerencia de Proyectos Estratégicos, Dirección" },
-            { name: "Académica en Turismo, Sistemas de Información WEB 2.0, Educación para la No Violencia y Líderes Ambientales" }
+            { name: "Ingeniero Civil - Politécnico Santiago Mariño" },
+            { name: "Postgrado en Ingeniería Estructural - Universidad Católica Andres Bello " },
+            { name: "Diplomado en Diseño integral de Puentes" },
+            { name: "Diplomado en Moldeamiento de Puentes con REVIT entre otros." }
         ],
         experiences: [
-            { name: "Docente en diferentes organizaciones como: Universidad Autónoma Chiriquí de Panamá Cámara de Comercio de Lima, Ejército del Perú, Universidad Continental, Asociación de Automóviles del Perú, entre otras." },
-            { name: "Creador de más de 300 conferencias y eventos académicos a nivel nacional e internacional." },
-            { name: "Profesor en temas como Empoderamiento de la Mujer e Igualdad de Género, Sociología de la Violencia, Marketing Digital, Inteligencia Artificial, entre otros." },
-            { name: "Actualmente es el CEO Founder del Centro de Investigaciones Científicas, Sociales y Tecnológicas del Perú y Presidente de Soy Mi Oportunidad." }
+            { name: "Gerente de Proyectos Estructurales RESY en Ingenieros SAC (actualidad)." },
+            { name: "Ingeniero Estructural Autónomo (actualidad)." },
+            { name: "Gerente General y Consultor Estructural (actualidad)." },
+            { name: "Docente del Diplomado Internacional 'Bim en calculo y diseño estructural' Escuelas EDIP/EstruCAD (actualidad." },
+            { name: "Docente del Diplomado Internacional 'Especialista Bim en Estructuras Metálicas' Tecno BIM Colombia (actualidad)." },
+            { name: "Profesor Universitario / Tutor y Jurado Evaluador en Tesis. I.U.P Santiago Mariño (hasta 2018)" }
         ]
     },
     {
       id: 5,
-      name: "DR. MARCO GARCÍA",
-      image: "/assets/eventos/carousel_eventos/5.png",
+      name: "MSc. MAKUI GIMÉNEZ",
+      image: "/assets/eventos/carousel_eventos/11.png",
       detail: "5",
       description:
         "",
         professions: [
-            { name: "Ingeniero Civil - Politécnico Santiago Mariño Arquitecto - Politécnico Santiago Mariño" },
-            { name: "Máster en Dirección de Desarrollo Local - Instituto Superior de Educación, Administración y Desarrollo (ISEAD) es una Escuela de Dirección asociada al Centro Universitario Villanueva, adscrito a la Universidad Complutense de Madrid" },
-            { name: "Especialista en Gerencia Empresaria - Universidad Santa María" },
-            { name: "Dr. Gerencia Avanzada - Universidad Fermín Toro" }
+            { name: "Ingeniero en Petróleo - Politécnico Santiago Mariño" },
+            { name: "Magister en Ingeniero Industrial - Universidad de Carabobo" }
         ],
         experiences: [
-            { name: "Experiencia en diseño y gestión de proyectos civiles, urbanismos, residenciales, comerciales y religiosos." },
-            { name: "Promotor de I+D en el uso de geomateriales en viviendas populares y la puesta en valor del patrimonio arquitectónico edificado aplicando el diseño participativo y el neurodiseño." },
-            { name: "Integrador de la docencia universitaria a la praxis creativa y transformadora del hábitat." },
-            { name: "rector General de la empresa Osma+Prada Arquitectos desde el año 2014." },
-            { name: "Redactor, fundador y primer jefe del subprograma de Arquitectura en la UNELLEZ" }
+            { name: "Supervisor e Ingeniero de Operaciones de Taladro, Perforacion, Workover y servicios a pozos en petróleos de Venezuela." },
+            { name: "Consultor e instructor en Drilling Learn Consulting and Training, Agencia Consultora." }
         ]
     },
     {
       id: 6,
-      name: "MSc. SAMARIS PAULO",
-      image: "/assets/eventos/carousel_eventos/6.png",
+      name: "DR. SIMÓN RIVERO MORALES",
+      image: "/assets/eventos/carousel_eventos/12.png",
       detail: "6",
       description:
         "",
         professions: [
-            { name: "TSU en Informática - Instituto Universitario de Tecnología Antonio José de Sucre" },
-            { name: "Ingeniero de Sistemas - Instituto Universitario Politécnico Santiago Mariño." },
-            { name: "Magister en Administración de Empresas, Mención Finanzas - Universidad de Carabobo." }
+            { name: "Ingeniero Agrónomo - Universidad Nacional Experimental del Tachira" },
+            { name: "Magister en desarrollo Agrario - Universidad de los Andes." },
+            { name: "Doctorado en Ecología de Desarrollo Humano - La Universidad Politécnica Territorial de Mérida Kléber Ramírez." }
         ],
         experiences: [
-            { name: "Analista de Nómina, Subdirectora de RRHH y Tutora-Docente Convencional en la Universidad Bicentenaria De Aragua, Maracay." },
-            { name: "Docente-tutora en el área de informática en la Unidad Educativa Nuestra Señora De La Consolación." },
-            { name: "Coordinadora de despacho de presidencia en Compañía Nacional De Reforestación Conare, Caracas." },
-            { name: "Ponente y Presentación De Poster II Congreso Latinoamericano de Estudiantes “Emprendimiento y Sociedad Digital”. Universidad Bicentenaria de Aragua, Maracay, Venezuela" },
+            { name: "Profesor categoria Asociado PSM." },
+            { name: "Vicepresidente de la SVIAA." },
+            { name: "Coordinador de Proyectos Científicos y Tecnológicos de la Organización profesional agraria: AGROSUS." }
         ]
-    }
+    },
+    {
+        id: 7,
+        name: "MSc. GABRIEL DE LA ROSA",
+        image: "/assets/eventos/carousel_eventos/13.png",
+        detail: "7",
+        description:
+          "",
+          professions: [
+              { name: "TSU en Mantenimiento Mecánico - Instituto Universitario de Tecnología Antonio José de Sucre" },
+              { name: "Ingeniero en Mantenimiento Mecánico - Universidad Gran Mariscal de Ayacucho." },
+              { name: "Maestría en Administración de Negocios en la Millenia Atlantic University - USA." }
+          ],
+          experiences: [
+              { name: "Se graduó con honores en el instituto universitario de Tecnología Antonio José de Sucre." },
+              { name: "Ha ocupado la posición de Gerente de Mantenimiento en Plantas Cementeras en Estados Unidos, en los estados de Florida, Ohio, Georgia, California y Misouri, para empresas como Cemex y EagleCement." },
+              { name: "Se ha caracterizado por su liderazgo y la formación de equipos  de alto desempeño, lo que ha quedado demostrado en las numerosas paradas de planta que ha ejecutado aplicando los más estrictos estándares de Gestión de proyectos aplicados en paradas de Planta con propósitos de Mantenimiento." }
+          ]
+      },
+      {
+        id: 8,
+        name: "MSc. RICHARD SALAZAR",
+        image: "/assets/eventos/carousel_eventos/14.png",
+        detail: "8",
+        description:
+          "",
+          professions: [
+              { name: "TSU en Electricidad - Instituto Universitario de Tecnología de Cabimas" },
+              { name: "Ingeniero Electricista - Politécnico Santiago Mariño." },
+              { name: "MSc en Gerencia de Mantenimiento - Universidad del Zulia." }
+          ],
+          experiences: [
+              { name: "Profesor ocasional tiempo completo en la facultad de ciencia ingeniería en la Universidad Laica Eloy ALfaro de Manabi(Uleam)." },
+              { name: "Coordinador de administración de mantenimiento en la corporación socialista del cemento S.A San Francisco - Zulia - Venezuela." },
+              { name: "Profesor contratado a tiempo determinado. Universidad Experimental Nacional 'Rafael Maria Baralt' San Francisco - Zulia - Venezuela." },
+              { name: "Superintendente de mantenimiento eléctrico en equipos y taladros de perforación petrolera. Grey Wolf Global Employment Corporation. Villahermosa - Tabasco - Mexico." }
+            ]
+      }
   ]
