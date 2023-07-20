@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         name: "Institución",
-        image: "/assets/eventos/evento2-3.png",
+        image: "/assets/eventos/evento3-1.png",
         title: "Noticias del día",
         description: "¿Te apasiona la Tecnología y quieres conocer a otros que comparten tu interés? En la tarea de buscar la verdad y afianzar los valores trascendentes del hombre. Colaboramos en la orientación de la vida del país mediante el aporte doctrinario al esclarecimiento de los valores Nacionales.",
         description2: "Entonces no te pierdas el II Encuentro Tecnológico, una gran oportunidad de Aprendizajes adaptado a las Nuevas Tecnologías que se realizará desde el próximo 18 de julio, hasta el 21 de julio, a nivel Nacional e Internacional.",

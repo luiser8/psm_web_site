@@ -1,149 +1,156 @@
 export default [
     {
       id: 1,
-      name: "GNRAL. MUFID HOUMEIDAN",
-      image: "/assets/eventos/carousel_eventos/7.png",
+      name: "Ing. GIAN ONTIVEROS",
+      image: "/assets/eventos/carousel_eventos/15.png",
       detail: "1",
       description:
         "",
         professions: [
-            { name: "Ingeniero en Petróleo - Politécnico Santiago Mariño" }
+            { name: "Ingeniero de Sistemas - Politécnico Santiago Mariño" }
         ],
         experiences: [
-            { name: "Presidente de Fire School International" },
-            { name: "Instructor y Director de Cursos Especiales de la Universidad de Texas A&M TEEX" },
-            { name: "Primer Comandante del Cuerpo de Bomberos de Cabimas Zulia" },
-            { name: "Instructor Certificado NFPA1041" }
+            { name: "Desarrollador web y asesor técnico independiente" },
+            { name: "Curso en Programming with JavaScript (Programación con JavaScript). Enero 2023, Coursera: Meta " },
+            { name: "Curso de Foundations of Project Management (Fundamentos de la gerencia de proyectos). Septiembre 2022, Coursera: Google" },
+            { name: "Consultor de Sistemas y Soporte Técnico en Meds Paraíso" }
         ]
     },
     {
       id: 2,
-      name: "MBA. JAVIER SANDOVAL",
-      image: "/assets/eventos/carousel_eventos/8.png",
+      name: "ARQ. JUAN ROCHA",
+      image: "/assets/eventos/carousel_eventos/16.png",
       detail: "2",
       description:
         "",
         professions: [
-            { name: "TSU en Electricidad - Mención Electrónica - Instituto Universitario Tecnológico 'Isaac Newton'" },
-            { name: "Ing. En Electrónica - Instituto Universitario Politécnico Santiago Mariño" },
-            { name: "MBA. En Administración - Mención Gerencia de empresas - Universidad Metropolitana" }
+            { name: "Arquitecto - Politécnico Santiago Mariño" },
         ],
         experiences: [
-            { name: "Superintendente de Mantenimiento en la Cervecería Polar, C.A - Planta Oriente." },
-            { name: "Especialista de Automatización y Analista de Mantenimiento Eléctrico en la Cervecería Polar, C.A - Planta Oriente." },
-            { name: "Gerente de Desarrollo de Proyectos. Projects 24 - Mérida / Venezuela" },
-            { name: "Diferentes diplomados en: Ingenieria de Confiabilidad y Gestión de Mantenimiento, Estudios Avanzados en Formación Gerencial, Formación en Gerencia Internacional." }
-        ]
+            { name: "Es gerente de diseño y marca de Preacero Pellizzari C.A." },
+            { name: "Es el arquitecto encargado de los diseños y proyectos de arquitectura para toda America. Asimismo coordina y estandariza lso proyectos bajo las normas internacionales" },
+            { name: "Es jefe de marca, coordinación y desarrollo de marketing nacional e internacional corporativo y comercial,siendo el Director de arte de imagen corporativo, asi como la planificación de nuevas estrategias de marketing corporativo" }        ]
     },
     {
       id: 3,
-      name: "MSc. MARCOS AMASIFUEN",
-      image: "/assets/eventos/carousel_eventos/9.png",
+      name: "ING. CARLOS VILLEGAS",
+      image: "/assets/eventos/carousel_eventos/17.png",
       detail: "3",
       description:
         "",
         professions: [
-            { name: "Ingeniero de Sistemas - Universidad Nacional de Huancavelica - Perú" },
-            { name: "Máster en Dirección y Gestión de Proyectos Universidad de Alcalá - Madrid España" }
+            { name: "Cartógrafo Urbano - Instituto Nacional de Estadísticas" },
+            { name: "Ing. Civil - Politécnico Santiago Mariño" },
+            { name: "BIM Management - Escuela EDIP - PERU" }
         ],
         experiences: [
-            { name: "Competente en proyectos de desarrollo económico, tecnológico y social con alta capacidad de planificación, ejecución y seguimiento de proyectos bajo el enfoque del Project Management Intitute (proyectos predictivos) y enfoque de Scrum Manager (gestión agile predictivos)." },
-            { name: "Gerente de proyectos tecnológicos cuántica group SAC." },
-            { name: "Responsable regional del programa PANSOY." },
-            { name: "Especialista en gestión de proyectos de innovación CID - PERSPEKTIVA." }
+            { name: "6 años de experiencia y mas de 130 mil metros cuadrados de modelado y consulta de proyectos BIM" },
+            { name: "Co-fundador de Tecobin S.A.S" },
+            { name: "Actualmente trabaja como consultor independiente desarrollando modelados BIM y diseños estructurales para proyectos de infraestructura educativa y estructuras Urbanas." },
+            { name: "Es BIM Manager y Coordinador de Proyectos MEP BIM RESTEKC - USA" },
+            { name: "Es instructor Docente principal de TECNOBIM Escuela" },
+            { name: "Fue Ingeniero Coordinador de Proyectos en TECNOBIM S.A.S en Colombia" }
         ]
     },
     {
       id: 4,
-      name: "MSc. GABRIELLE ROMERO",
-      image: "/assets/eventos/carousel_eventos/10.png",
+      name: "MSc. ANDRES CAMPOS",
+      image: "/assets/eventos/carousel_eventos/18.png",
       detail: "4",
       description:
         "",
         professions: [
-            { name: "Ingeniero Civil - Politécnico Santiago Mariño" },
-            { name: "Postgrado en Ingeniería Estructural - Universidad Católica Andres Bello " },
-            { name: "Diplomado en Diseño integral de Puentes" },
-            { name: "Diplomado en Moldeamiento de Puentes con REVIT entre otros." }
+            { name: "Ing. en Petroleo - Politécnico Santiago Mariño" },
+            { name: "Ingeniería de Petroleo - Universidad Venezolana de los Hidrocarburos MS Caracterización de Yacimientos MBA en Gerencia e innovación tecnológica - Universidad Nacional Experimental Rafael Maria Baralt" },
+            { name: "MSc. en Gerencia Petrolera, Ingeniería Geológica - Universidad del Zulia" }
         ],
         experiences: [
-            { name: "Gerente de Proyectos Estructurales RESY en Ingenieros SAC (actualidad)." },
-            { name: "Ingeniero Estructural Autónomo (actualidad)." },
-            { name: "Gerente General y Consultor Estructural (actualidad)." },
-            { name: "Docente del Diplomado Internacional 'Bim en calculo y diseño estructural' Escuelas EDIP/EstruCAD (actualidad." },
-            { name: "Docente del Diplomado Internacional 'Especialista Bim en Estructuras Metálicas' Tecno BIM Colombia (actualidad)." },
-            { name: "Profesor Universitario / Tutor y Jurado Evaluador en Tesis. I.U.P Santiago Mariño (hasta 2018)" }
+            { name: "Profesor de postgrado ingeniería del gas natural - Universidad Nacional Experimental Rafael Baralt 'UNERMB'" },
+            { name: "Profesor del ciclo profesional de Ingeniería de Petroleo - Instituto Universitario Politécnico Santiago Mariño" },
+            { name: "Supervisor de recuperacion mejorada de Hidrocarburos" }
         ]
     },
     {
       id: 5,
-      name: "MSc. MAKUI GIMÉNEZ",
-      image: "/assets/eventos/carousel_eventos/11.png",
+      name: "MSc. ABELARDO GÓMEZ",
+      image: "/assets/eventos/carousel_eventos/19.png",
       detail: "5",
       description:
         "",
         professions: [
-            { name: "Ingeniero en Petróleo - Politécnico Santiago Mariño" },
-            { name: "Magister en Ingeniero Industrial - Universidad de Carabobo" }
+            { name: "Ing. Electricista - Politécnico Santiago Mariño" },
+            { name: "Ing. Electrónico - Politécnico Santiago Mariño" },
+            { name: "Ing. Industrial - Washington Christian University" },
+            { name: "Master Business Administration - Washington Christian University" },
+            { name: "Master en Comercio International - Centro Europeo De Post Grado" }
         ],
         experiences: [
-            { name: "Supervisor e Ingeniero de Operaciones de Taladro, Perforacion, Workover y servicios a pozos en petróleos de Venezuela." },
-            { name: "Consultor e instructor en Drilling Learn Consulting and Training, Agencia Consultora." }
+            { name: "Ha sido coordinador instalación eléctrica e instrumentación de equipos electromecánicos." },
+            { name: "Ha estado en el comisionamiento de turbinas a gas y diesel" },
+            { name: "Ha trabajado en la interpretación y manejo de planos civiles y electromecánicos" },
+            { name: "Docente Universitario" },
+            { name: "Tutor Industrial" },
+            { name: "Ponente de temas a nivel internacional" },
+            { name: "Trabajo en la recuperación, elaboración y humanización de espacios del Hospital Central San Cristóbal" }
         ]
     },
     {
       id: 6,
-      name: "DR. SIMÓN RIVERO MORALES",
-      image: "/assets/eventos/carousel_eventos/12.png",
+      name: "MSc LEONARDO PARRA",
+      image: "/assets/eventos/carousel_eventos/20.png",
       detail: "6",
       description:
         "",
         professions: [
-            { name: "Ingeniero Agrónomo - Universidad Nacional Experimental del Tachira" },
-            { name: "Magister en desarrollo Agrario - Universidad de los Andes." },
-            { name: "Doctorado en Ecología de Desarrollo Humano - La Universidad Politécnica Territorial de Mérida Kléber Ramírez." }
+            { name: "Ing. en mantenimiento mecánico - Politécnico Santiago Mariño" },
+            { name: "Maestría en ciencias administrativas Gerencia General - Universidad de oriente" },
+            { name: "Maestría internacional en desarrollo de habilidades gerenciales - Universidad internacional de estudios para la resolución de conflictos bélgica unión europea - España" }
         ],
         experiences: [
-            { name: "Profesor categoria Asociado PSM." },
-            { name: "Vicepresidente de la SVIAA." },
-            { name: "Coordinador de Proyectos Científicos y Tecnológicos de la Organización profesional agraria: AGROSUS." }
+            { name: "Gerente de proyectos para la ingenieria , procura y construcción del nuevo parque de generación de energía eléctrica por fotoceldas en la ciudad de minas  en gerais brasil" },
+            { name: "Coordinador de mantenimiento en PROSELUR - Chile" },
+            { name: "Coordinador de ingeniería y construcción - Proyecto : IPC, Instalación de 120 km de tubería para transporte de agua potable en la ciudad de toltén región de la araucania chile" },
+            { name: "Proyecto: IPC , Nuevos tanques para almacenamiento de agua potable capacidad harcha ingeniería y construcción, chile entre otros." },
         ]
     },
     {
         id: 7,
-        name: "MSc. GABRIEL DE LA ROSA",
-        image: "/assets/eventos/carousel_eventos/13.png",
+        name: "MSc. RICHARD MENDOZA",
+        image: "/assets/eventos/carousel_eventos/21.png",
         detail: "7",
         description:
           "",
           professions: [
-              { name: "TSU en Mantenimiento Mecánico - Instituto Universitario de Tecnología Antonio José de Sucre" },
-              { name: "Ingeniero en Mantenimiento Mecánico - Universidad Gran Mariscal de Ayacucho." },
-              { name: "Maestría en Administración de Negocios en la Millenia Atlantic University - USA." }
+              { name: "Licenciado en educación mención : matemática y física - universidad del Zulia" },
+              { name: "Ing. en petróleo - universidad del Zulia" },
+              { name: "MSc. en matemáticas mención docencia - universidad del Zulia" }
           ],
           experiences: [
-              { name: "Se graduó con honores en el instituto universitario de Tecnología Antonio José de Sucre." },
-              { name: "Ha ocupado la posición de Gerente de Mantenimiento en Plantas Cementeras en Estados Unidos, en los estados de Florida, Ohio, Georgia, California y Misouri, para empresas como Cemex y EagleCement." },
-              { name: "Se ha caracterizado por su liderazgo y la formación de equipos  de alto desempeño, lo que ha quedado demostrado en las numerosas paradas de planta que ha ejecutado aplicando los más estrictos estándares de Gestión de proyectos aplicados en paradas de Planta con propósitos de Mantenimiento." }
+              { name: "Decano facultad de ingeniería - Universidad alonso de ojeda (hasta el 2021)" },
+              { name: "Profesor de las asignaturas: geometría , cálculo, algebra lineal, estadística, entre otras - universidad alonso de ojeda (hasta 2021)" },
+              { name: "Ingenierio de optimización especialista en bombeo mecánico - PDVSA" },
+              { name: "Amplio conocimiento en los métodos de levantamiento artificial: Gas lift continuo, gaslift intermitente , bombeo mecánico (balancin), bombeo de cavidad progresiva (BCP) bombeo electrosumergible (BES)" }
           ]
       },
       {
         id: 8,
-        name: "MSc. RICHARD SALAZAR",
-        image: "/assets/eventos/carousel_eventos/14.png",
+        name: "Esp. LINAURE BLANCO",
+        image: "/assets/eventos/carousel_eventos/22.png",
         detail: "8",
         description:
           "",
           professions: [
-              { name: "TSU en Electricidad - Instituto Universitario de Tecnología de Cabimas" },
-              { name: "Ingeniero Electricista - Politécnico Santiago Mariño." },
-              { name: "MSc en Gerencia de Mantenimiento - Universidad del Zulia." }
+              { name: "Técnico superior en electronica - Instituto agro-industrial región los andes" },
+              { name: "Ing. electricista - instituto politécnico santiago mariño" },
+              { name: "Esp en ingeniería eléctrica mención mantenimiento electromecánico Instituto universitario de tecnologia agroindustrial región los andes" }
           ],
           experiences: [
-              { name: "Profesor ocasional tiempo completo en la facultad de ciencia ingeniería en la Universidad Laica Eloy ALfaro de Manabi(Uleam)." },
-              { name: "Coordinador de administración de mantenimiento en la corporación socialista del cemento S.A San Francisco - Zulia - Venezuela." },
-              { name: "Profesor contratado a tiempo determinado. Universidad Experimental Nacional 'Rafael Maria Baralt' San Francisco - Zulia - Venezuela." },
-              { name: "Superintendente de mantenimiento eléctrico en equipos y taladros de perforación petrolera. Grey Wolf Global Employment Corporation. Villahermosa - Tabasco - Mexico." }
+              { name: "Docente en el Politécnico Santiago Mariño en las escuelas de eléctrica, electronica, mantenimiento mecánico, sistemas e industrial." },
+              { name: "Docente en el IUTI en la escuela de mantenimiento mecánico específicamente en electricidad I." },
+              { name: "Docente en el IUPTAI en las escuelas de eléctrica y electronica" },
+              { name: "Docente en UNEFA Escuela de eléctrica" },
+              { name: "Jefe de operaciones de mantenimiento programado empresa en INTEL S.A" },
+              { name: "Asesor de mantenimiento electromecánico en las contratistas OTECA Y SERCA" }
             ]
       }
   ]
