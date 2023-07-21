@@ -29,16 +29,16 @@ export default [
                 link: "https://www.youtube.com/embed/WNsJKB19ot8",
                 titleLink: "Ver transmisión en vivo",
                 target: "_self",
-                iframe: "https://www.youtube.com/embed/Ya1zIBYsB9E",
+                iframe: "https://www.youtube.com/embed/-RgFPln6V0k",
             },
             {
                 id: 2,
                 url: '/assets/eventos/evento3.jpg',
                 cloudinary: "https://res.cloudinary.com/luiser85/image/upload/v1674132079/web2_tnekov.png",
-                link: "https://www.youtube.com/watch?v=WNsJKB19ot8",
+                link: "https://www.youtube.com/watch?v=-RgFPln6V0k",
                 titleLink: "Ver transmisión en vivo",
                 target: "_self",
-                iframe: "https://www.youtube.com/embed/Ya1zIBYsB9E",
+                iframe: "https://www.youtube.com/embed/RgFPln6V0k",
                 //
             },
             {
