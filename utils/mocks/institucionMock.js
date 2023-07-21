@@ -6,7 +6,7 @@ export default [
         title: "Noticias del día",
         description: "La Orquesta Alma Llanera del Zulia inicio actividades en septiembre del año 2019, uniendo en una misma agrupación a miembros del Sistema provenientes de núcleos de todo el estado, transformandose así en la agrupación insignia del programa académico alma Llanera en la región zuliano y siendo un referente de este trabajo a nivel nacional.",
         description2: "Es dirigida por el Mtro. Jesús Albornoz, líder del programa Alma Llanera en el Zulia, director del núcleo San Francisco, miembro de la comisión académica de la escuela nacional de la mandolina, docente y catedrático con una dilatada experiencia a nivel universitario, media y en la estructura del Sistema.",
-        description3: "La orquesta tiene miembros de mene grande, bachaquero, Maracaibo (varios núcleos) y San Francisco....es una de las 5 orquestas Alma Llanera principales del país... Allí hay, por cierto, 5 estudiantes de PSM y uno de UTS",
+        description3: "La orquesta tiene miembros de mene grande, bachaquero, Maracaibo (varios núcleos) y San Francisco....es una de las 5 orquestas Alma Llanera principales del país... Allí hay, por cierto, 5 estudiantes de PSM y uno de UTS.",
         description4: "",
         description5: "",
         linkText: "",
