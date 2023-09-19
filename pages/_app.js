@@ -8,7 +8,6 @@ import ScrollBackTop from "../components/Layout/ScrollBackTop";
 
 export default function App({ Component, pageProps }) {
   const [activeLink, setActiveLink] = useState("institution");
-  const [iframe, setIframe] = useState(false);
   return (
     <>
       <SeoHead title='Politécnico Santiago Mariño' />

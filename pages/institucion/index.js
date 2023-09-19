@@ -42,13 +42,18 @@ const Institucion = () => {
             </motion.div>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper>
-            <motion.div className="flex flex-col justify-center text-justify ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
-              <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-100">
-                {institucionMock[0].title}
+            <motion.div className="flex flex-col ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
+              <h3 className="text-3xl lg:text-3xl font-medium leading-relaxed text-black-100">
+                {institucionMock[0].title_alt}
               </h3>
-              <p className="my-2 text-black-100">
+            </motion.div>
+            <motion.div className="flex flex-col justify-center text-justify ml-auto w-full lg:w-9/12" variants={scrollAnimation}>
+              {/* <h3 className="text-3xl lg:text-4xl font-medium leading-relaxed text-black-100">
+                {institucionMock[0].title_alt}
+              </h3> */}
+              {/* <p className="my-2 text-black-100">
                 {institucionMock[0].description}
-              </p>
+              </p> */}
               <p className="my-2 text-black-100">
                 {institucionMock[0].description2}
               </p>
@@ -58,13 +63,25 @@ const Institucion = () => {
               <p className="my-2 text-black-100">
                 {institucionMock[0].description4}
               </p>
-              <Link key={institucionMock[0].id} legacyBehavior passHref href={institucionMock[0].link} target={institucionMock[0].target}>
+              <p className="my-2 text-black-100">
+                {institucionMock[0].description5}
+              </p>
+              <p className="my-2 text-black-100">
+                {institucionMock[0].description6}
+              </p>
+              <p className="my-2 text-black-100">
+                {institucionMock[0].description7}
+              </p>
+              <p className="my-2 text-black-100">
+                {institucionMock[0].description8}
+              </p>
+              {/* <Link key={institucionMock[0].id} legacyBehavior passHref href={institucionMock[0].link} target={institucionMock[0].target}>
                 <a target={institucionMock[0].target} rel="noopener noreferrer" className={`${institucionMock[0].link === "" ? 'cursor-default' : 'cursor-pointer'}`}>
                   <p className="my-2 text-black-100">
                     {institucionMock[0].description5} <b className=""><i>{institucionMock[0].linkText}</i></b>
                   </p>
                 </a>
-              </Link>
+              </Link> */}
             </motion.div>
           </ScrollAnimationWrapper>
         </div>

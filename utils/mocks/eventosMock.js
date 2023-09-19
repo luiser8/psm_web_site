@@ -1,8 +1,8 @@
 export default [
     {
         id: 1,
-        name: "DR. NÉSTOR LEÓN",
-        image: "/assets/eventos/carousel_eventos/23.png",
+        name: "Dr. Jorge Martínez",
+        image: "/assets/eventos/evento2/ponente1.jpg",
         detail: "1",
         description:
             "",
@@ -22,8 +22,8 @@ export default [
     },
     {
         id: 2,
-        name: "ESP. ISRAEL SÁNCHEZ PEÑA",
-        image: "/assets/eventos/carousel_eventos/24.png",
+        name: "Msc. Danny Reyes",
+        image: "/assets/eventos/evento2/ponente2.jpg",
         detail: "2",
         description:
             "",
@@ -39,8 +39,8 @@ export default [
     },
     {
         id: 3,
-        name: "MSc PEDRO DÍAZ",
-        image: "/assets/eventos/carousel_eventos/25.png",
+        name: "Dra Iris Jiménez",
+        image: "/assets/eventos/evento2/ponente3.jpg",
         detail: "3",
         description:
             "",
@@ -61,8 +61,8 @@ export default [
     },
     {
         id: 4,
-        name: "DR ELIEZER CORDOVA",
-        image: "/assets/eventos/carousel_eventos/26.png",
+        name: "Psicól. Víctor Saavedra",
+        image: "/assets/eventos/evento2/ponente4.jpg",
         detail: "4",
         description:
             "",
@@ -84,8 +84,8 @@ export default [
     },
     {
         id: 5,
-        name: "ING. JULIO NATERA",
-        image: "/assets/eventos/carousel_eventos/27.png",
+        name: "Dra. María Rossell",
+        image: "/assets/eventos/evento2/ponente5.jpg",
         detail: "5",
         description:
             "",
@@ -105,8 +105,228 @@ export default [
     },
     {
         id: 6,
-        name: "MSc. ERNESTO PRIMERA",
-        image: "/assets/eventos/carousel_eventos/28.png",
+        name: "Dra. Angélica Cordero",
+        image: "/assets/eventos/evento2/ponente6.jpg",
+        detail: "6",
+        description:
+            "",
+        professions: [
+            { name: "T.S.U En mantenimiento mecánico - Instituto universitario Antonio José de sucre" },
+            { name: "Ingeniero de mantenimiento mecánico - Politécnico Santiago Mariño" },
+            { name: "Msc. en mantenimiento predictivo y técnicas de diagnóstico de la universidad de Sevilla-España" },
+            { name: "Msc. en análisis de datos de la universidad del gran Cañon de Arizona- USA" }
+        ],
+        experiences: [
+            { name: "25 Años de experiencia en maquinarias rotativas, monitoreo de la condición, diagnostico de fallos, solución de problemas e ingeniería de confiabilidad." },
+            { name: "Experiencia en la industria petrolera, energía, minera e industria pesada " },
+            { name: "Trabajó para chevron, conocoPhillips, Flowserve y SKF. Durante los últimos años como miembro de los equipos de confiabilidad  de maquinarias rotativas de las refinerías y complejos petroquimicos de pascagoula en Mississippi USA (CHEVRON), Lake charlesy alliance en Luisana USA (Phillips-66)" },
+            { name: "Instructor global, mentor y speaker bureau para la sociedad americana  de ingenieros mecánicos (ASME), también vicepresidente del comité técnico de fluido de ingeniería de ASME" },
+        ]
+    },
+    {
+        id: 7,
+        name: "Mg. Xinia Madrigal",
+        image: "/assets/eventos/evento2/ponente7.jpg",
+        detail: "6",
+        description:
+            "",
+        professions: [
+            { name: "T.S.U En mantenimiento mecánico - Instituto universitario Antonio José de sucre" },
+            { name: "Ingeniero de mantenimiento mecánico - Politécnico Santiago Mariño" },
+            { name: "Msc. en mantenimiento predictivo y técnicas de diagnóstico de la universidad de Sevilla-España" },
+            { name: "Msc. en análisis de datos de la universidad del gran Cañon de Arizona- USA" }
+        ],
+        experiences: [
+            { name: "25 Años de experiencia en maquinarias rotativas, monitoreo de la condición, diagnostico de fallos, solución de problemas e ingeniería de confiabilidad." },
+            { name: "Experiencia en la industria petrolera, energía, minera e industria pesada " },
+            { name: "Trabajó para chevron, conocoPhillips, Flowserve y SKF. Durante los últimos años como miembro de los equipos de confiabilidad  de maquinarias rotativas de las refinerías y complejos petroquimicos de pascagoula en Mississippi USA (CHEVRON), Lake charlesy alliance en Luisana USA (Phillips-66)" },
+            { name: "Instructor global, mentor y speaker bureau para la sociedad americana  de ingenieros mecánicos (ASME), también vicepresidente del comité técnico de fluido de ingeniería de ASME" },
+        ]
+    },
+    {
+        id: 8,
+        name: "Msc. Roiman Valbuena",
+        image: "/assets/eventos/evento2/ponente8.jpg",
+        detail: "6",
+        description:
+            "",
+        professions: [
+            { name: "T.S.U En mantenimiento mecánico - Instituto universitario Antonio José de sucre" },
+            { name: "Ingeniero de mantenimiento mecánico - Politécnico Santiago Mariño" },
+            { name: "Msc. en mantenimiento predictivo y técnicas de diagnóstico de la universidad de Sevilla-España" },
+            { name: "Msc. en análisis de datos de la universidad del gran Cañon de Arizona- USA" }
+        ],
+        experiences: [
+            { name: "25 Años de experiencia en maquinarias rotativas, monitoreo de la condición, diagnostico de fallos, solución de problemas e ingeniería de confiabilidad." },
+            { name: "Experiencia en la industria petrolera, energía, minera e industria pesada " },
+            { name: "Trabajó para chevron, conocoPhillips, Flowserve y SKF. Durante los últimos años como miembro de los equipos de confiabilidad  de maquinarias rotativas de las refinerías y complejos petroquimicos de pascagoula en Mississippi USA (CHEVRON), Lake charlesy alliance en Luisana USA (Phillips-66)" },
+            { name: "Instructor global, mentor y speaker bureau para la sociedad americana  de ingenieros mecánicos (ASME), también vicepresidente del comité técnico de fluido de ingeniería de ASME" },
+        ]
+    },
+    {
+        id: 9,
+        name: "Dra. Azucena Calderón",
+        image: "/assets/eventos/evento2/ponente9.jpg",
+        detail: "6",
+        description:
+            "",
+        professions: [
+            { name: "T.S.U En mantenimiento mecánico - Instituto universitario Antonio José de sucre" },
+            { name: "Ingeniero de mantenimiento mecánico - Politécnico Santiago Mariño" },
+            { name: "Msc. en mantenimiento predictivo y técnicas de diagnóstico de la universidad de Sevilla-España" },
+            { name: "Msc. en análisis de datos de la universidad del gran Cañon de Arizona- USA" }
+        ],
+        experiences: [
+            { name: "25 Años de experiencia en maquinarias rotativas, monitoreo de la condición, diagnostico de fallos, solución de problemas e ingeniería de confiabilidad." },
+            { name: "Experiencia en la industria petrolera, energía, minera e industria pesada " },
+            { name: "Trabajó para chevron, conocoPhillips, Flowserve y SKF. Durante los últimos años como miembro de los equipos de confiabilidad  de maquinarias rotativas de las refinerías y complejos petroquimicos de pascagoula en Mississippi USA (CHEVRON), Lake charlesy alliance en Luisana USA (Phillips-66)" },
+            { name: "Instructor global, mentor y speaker bureau para la sociedad americana  de ingenieros mecánicos (ASME), también vicepresidente del comité técnico de fluido de ingeniería de ASME" },
+        ]
+    },
+    {
+        id: 10,
+        name: "Dr. Victoriano Rodríguez",
+        image: "/assets/eventos/evento2/ponente10.jpg",
+        detail: "6",
+        description:
+            "",
+        professions: [
+            { name: "T.S.U En mantenimiento mecánico - Instituto universitario Antonio José de sucre" },
+            { name: "Ingeniero de mantenimiento mecánico - Politécnico Santiago Mariño" },
+            { name: "Msc. en mantenimiento predictivo y técnicas de diagnóstico de la universidad de Sevilla-España" },
+            { name: "Msc. en análisis de datos de la universidad del gran Cañon de Arizona- USA" }
+        ],
+        experiences: [
+            { name: "25 Años de experiencia en maquinarias rotativas, monitoreo de la condición, diagnostico de fallos, solución de problemas e ingeniería de confiabilidad." },
+            { name: "Experiencia en la industria petrolera, energía, minera e industria pesada " },
+            { name: "Trabajó para chevron, conocoPhillips, Flowserve y SKF. Durante los últimos años como miembro de los equipos de confiabilidad  de maquinarias rotativas de las refinerías y complejos petroquimicos de pascagoula en Mississippi USA (CHEVRON), Lake charlesy alliance en Luisana USA (Phillips-66)" },
+            { name: "Instructor global, mentor y speaker bureau para la sociedad americana  de ingenieros mecánicos (ASME), también vicepresidente del comité técnico de fluido de ingeniería de ASME" },
+        ]
+    },
+    {
+        id: 11,
+        name: "Msc. Richard Salazar",
+        image: "/assets/eventos/evento2/ponente11.jpg",
+        detail: "6",
+        description:
+            "",
+        professions: [
+            { name: "T.S.U En mantenimiento mecánico - Instituto universitario Antonio José de sucre" },
+            { name: "Ingeniero de mantenimiento mecánico - Politécnico Santiago Mariño" },
+            { name: "Msc. en mantenimiento predictivo y técnicas de diagnóstico de la universidad de Sevilla-España" },
+            { name: "Msc. en análisis de datos de la universidad del gran Cañon de Arizona- USA" }
+        ],
+        experiences: [
+            { name: "25 Años de experiencia en maquinarias rotativas, monitoreo de la condición, diagnostico de fallos, solución de problemas e ingeniería de confiabilidad." },
+            { name: "Experiencia en la industria petrolera, energía, minera e industria pesada " },
+            { name: "Trabajó para chevron, conocoPhillips, Flowserve y SKF. Durante los últimos años como miembro de los equipos de confiabilidad  de maquinarias rotativas de las refinerías y complejos petroquimicos de pascagoula en Mississippi USA (CHEVRON), Lake charlesy alliance en Luisana USA (Phillips-66)" },
+            { name: "Instructor global, mentor y speaker bureau para la sociedad americana  de ingenieros mecánicos (ASME), también vicepresidente del comité técnico de fluido de ingeniería de ASME" },
+        ]
+    },
+    {
+        id: 12,
+        name: "Dra. Ivonne Harvey",
+        image: "/assets/eventos/evento2/ponente12.jpg",
+        detail: "6",
+        description:
+            "",
+        professions: [
+            { name: "T.S.U En mantenimiento mecánico - Instituto universitario Antonio José de sucre" },
+            { name: "Ingeniero de mantenimiento mecánico - Politécnico Santiago Mariño" },
+            { name: "Msc. en mantenimiento predictivo y técnicas de diagnóstico de la universidad de Sevilla-España" },
+            { name: "Msc. en análisis de datos de la universidad del gran Cañon de Arizona- USA" }
+        ],
+        experiences: [
+            { name: "25 Años de experiencia en maquinarias rotativas, monitoreo de la condición, diagnostico de fallos, solución de problemas e ingeniería de confiabilidad." },
+            { name: "Experiencia en la industria petrolera, energía, minera e industria pesada " },
+            { name: "Trabajó para chevron, conocoPhillips, Flowserve y SKF. Durante los últimos años como miembro de los equipos de confiabilidad  de maquinarias rotativas de las refinerías y complejos petroquimicos de pascagoula en Mississippi USA (CHEVRON), Lake charlesy alliance en Luisana USA (Phillips-66)" },
+            { name: "Instructor global, mentor y speaker bureau para la sociedad americana  de ingenieros mecánicos (ASME), también vicepresidente del comité técnico de fluido de ingeniería de ASME" },
+        ]
+    },
+    {
+        id: 13,
+        name: "Msc. Evelyn Quintero",
+        image: "/assets/eventos/evento2/ponente13.jpg",
+        detail: "6",
+        description:
+            "",
+        professions: [
+            { name: "T.S.U En mantenimiento mecánico - Instituto universitario Antonio José de sucre" },
+            { name: "Ingeniero de mantenimiento mecánico - Politécnico Santiago Mariño" },
+            { name: "Msc. en mantenimiento predictivo y técnicas de diagnóstico de la universidad de Sevilla-España" },
+            { name: "Msc. en análisis de datos de la universidad del gran Cañon de Arizona- USA" }
+        ],
+        experiences: [
+            { name: "25 Años de experiencia en maquinarias rotativas, monitoreo de la condición, diagnostico de fallos, solución de problemas e ingeniería de confiabilidad." },
+            { name: "Experiencia en la industria petrolera, energía, minera e industria pesada " },
+            { name: "Trabajó para chevron, conocoPhillips, Flowserve y SKF. Durante los últimos años como miembro de los equipos de confiabilidad  de maquinarias rotativas de las refinerías y complejos petroquimicos de pascagoula en Mississippi USA (CHEVRON), Lake charlesy alliance en Luisana USA (Phillips-66)" },
+            { name: "Instructor global, mentor y speaker bureau para la sociedad americana  de ingenieros mecánicos (ASME), también vicepresidente del comité técnico de fluido de ingeniería de ASME" },
+        ]
+    },
+    {
+        id: 14,
+        name: "Esp. Alida Labarca",
+        image: "/assets/eventos/evento2/ponente14.jpg",
+        detail: "6",
+        description:
+            "",
+        professions: [
+            { name: "T.S.U En mantenimiento mecánico - Instituto universitario Antonio José de sucre" },
+            { name: "Ingeniero de mantenimiento mecánico - Politécnico Santiago Mariño" },
+            { name: "Msc. en mantenimiento predictivo y técnicas de diagnóstico de la universidad de Sevilla-España" },
+            { name: "Msc. en análisis de datos de la universidad del gran Cañon de Arizona- USA" }
+        ],
+        experiences: [
+            { name: "25 Años de experiencia en maquinarias rotativas, monitoreo de la condición, diagnostico de fallos, solución de problemas e ingeniería de confiabilidad." },
+            { name: "Experiencia en la industria petrolera, energía, minera e industria pesada " },
+            { name: "Trabajó para chevron, conocoPhillips, Flowserve y SKF. Durante los últimos años como miembro de los equipos de confiabilidad  de maquinarias rotativas de las refinerías y complejos petroquimicos de pascagoula en Mississippi USA (CHEVRON), Lake charlesy alliance en Luisana USA (Phillips-66)" },
+            { name: "Instructor global, mentor y speaker bureau para la sociedad americana  de ingenieros mecánicos (ASME), también vicepresidente del comité técnico de fluido de ingeniería de ASME" },
+        ]
+    },
+    {
+        id: 15,
+        name: "Lcdo. Nerio García",
+        image: "/assets/eventos/evento2/ponente15.jpg",
+        detail: "6",
+        description:
+            "",
+        professions: [
+            { name: "T.S.U En mantenimiento mecánico - Instituto universitario Antonio José de sucre" },
+            { name: "Ingeniero de mantenimiento mecánico - Politécnico Santiago Mariño" },
+            { name: "Msc. en mantenimiento predictivo y técnicas de diagnóstico de la universidad de Sevilla-España" },
+            { name: "Msc. en análisis de datos de la universidad del gran Cañon de Arizona- USA" }
+        ],
+        experiences: [
+            { name: "25 Años de experiencia en maquinarias rotativas, monitoreo de la condición, diagnostico de fallos, solución de problemas e ingeniería de confiabilidad." },
+            { name: "Experiencia en la industria petrolera, energía, minera e industria pesada " },
+            { name: "Trabajó para chevron, conocoPhillips, Flowserve y SKF. Durante los últimos años como miembro de los equipos de confiabilidad  de maquinarias rotativas de las refinerías y complejos petroquimicos de pascagoula en Mississippi USA (CHEVRON), Lake charlesy alliance en Luisana USA (Phillips-66)" },
+            { name: "Instructor global, mentor y speaker bureau para la sociedad americana  de ingenieros mecánicos (ASME), también vicepresidente del comité técnico de fluido de ingeniería de ASME" },
+        ]
+    },
+    {
+        id: 16,
+        name: "Mag. Gonzalo Junco",
+        image: "/assets/eventos/evento2/ponente16.jpg",
+        detail: "6",
+        description:
+            "",
+        professions: [
+            { name: "T.S.U En mantenimiento mecánico - Instituto universitario Antonio José de sucre" },
+            { name: "Ingeniero de mantenimiento mecánico - Politécnico Santiago Mariño" },
+            { name: "Msc. en mantenimiento predictivo y técnicas de diagnóstico de la universidad de Sevilla-España" },
+            { name: "Msc. en análisis de datos de la universidad del gran Cañon de Arizona- USA" }
+        ],
+        experiences: [
+            { name: "25 Años de experiencia en maquinarias rotativas, monitoreo de la condición, diagnostico de fallos, solución de problemas e ingeniería de confiabilidad." },
+            { name: "Experiencia en la industria petrolera, energía, minera e industria pesada " },
+            { name: "Trabajó para chevron, conocoPhillips, Flowserve y SKF. Durante los últimos años como miembro de los equipos de confiabilidad  de maquinarias rotativas de las refinerías y complejos petroquimicos de pascagoula en Mississippi USA (CHEVRON), Lake charlesy alliance en Luisana USA (Phillips-66)" },
+            { name: "Instructor global, mentor y speaker bureau para la sociedad americana  de ingenieros mecánicos (ASME), también vicepresidente del comité técnico de fluido de ingeniería de ASME" },
+        ]
+    },
+    {
+        id: 17,
+        name: "Cnel. José Rosales",
+        image: "/assets/eventos/evento2/ponente17.jpg",
         detail: "6",
         description:
             "",
