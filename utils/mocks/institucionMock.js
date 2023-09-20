@@ -14,7 +14,7 @@ export default [
         description7: "Mantente atento(a) a nuestras publicaciones, para mayor información.",
         description8: "¡Somos PSM, Somos Tecnología, Somos Formación para la Excelencia!",
         linkText: "",
-        link: "",
+        link: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjAzYmRhYTUtY2YyNC00YzIxLWIyYWMtNThmZTVjNjFkNWI0%40thread.v2/0?context=%7b%22Tid%22%3a%223374819b-3f7f-4153-ab6a-fd4afd7b386c%22%2c%22Oid%22%3a%22c65f6634-8572-4236-be1e-176f238a7884%22%7d",
         target: "_blank",
         carousel: [
             {
