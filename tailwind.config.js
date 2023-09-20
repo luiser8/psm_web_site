@@ -59,6 +59,8 @@ module.exports = {
         100: "#EEEFF2",
         400: "#AFB5C0",
         500: "#DDDDDD",
+        600: "rgb(75 85 99)",
+        700: "rgb(55 65 81)",
       },
       blue: {
         50: "#eff6ff",

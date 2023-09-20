@@ -53,7 +53,7 @@ const Videos = () => {
       {/* bg-gradient-to-b from-white-300 to-white-500  */}
       <div className="max-w-screen py-12 px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
-          <ScrollAnimationWrapper>
+          {/* <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-100 leading-relaxed"
@@ -66,7 +66,7 @@ const Videos = () => {
             >
               Algunas reseñas.
             </motion.p>
-          </ScrollAnimationWrapper>
+          </ScrollAnimationWrapper> */}
           <ScrollAnimationWrapper>
             <Slider
               {...settings}
@@ -81,7 +81,9 @@ const Videos = () => {
                     <video src={videosMock.video} autoplay controls controlsList="nodownload noplaybackrate" disablePictureInPicture></video>
                     <div className="p-6">
                       {/* <h1 className="title-font text-lg font-medium text-gray-900 mb-3">{videosMock.name}</h1> */}
-                      <p className="leading-relaxed mb-3">{videosMock.description}</p>
+                      <p className="leading-relaxed mb-3">"{videosMock.description}"</p>
+                      <p className="leading-relaxed mb-0 text-gray-700 underline">{videosMock.att}</p>
+                      <p className="leading-relaxed mb-0 text-gray-700 underline">{videosMock.post}</p>
                       {/* <div className="flex items-center flex-wrap">
                       <Link href={`/eventos/${eventosMock.detail}`} className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">
                         <div className="mx-auto">
