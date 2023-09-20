@@ -78,7 +78,7 @@ const Videos = () => {
                 <div className="p-4 md:w-1/3" key={index}>
                   <div className="h-full border-2 border-gray-500 rounded-lg overflow-hidden hover:border-orange-400 transition-all">
                     {/* <img className="lg:h-full md:h-full w-full object-cover object-center" src={videosMock.video} alt="image" /> */}
-                    <video src={videosMock.video} autoplay controls></video>
+                    <video src={videosMock.video} autoplay controls controlsList="nodownload noplaybackrate" disablePictureInPicture></video>
                     <div className="p-6">
                       {/* <h1 className="title-font text-lg font-medium text-gray-900 mb-3">{videosMock.name}</h1> */}
                       <p className="leading-relaxed mb-3">{videosMock.description}</p>
