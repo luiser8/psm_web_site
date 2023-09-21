@@ -21,10 +21,10 @@ export default [
                 id: 0,
                 url: '/assets/eventos/evento2.jpeg',
                 cloudinary: "",
-                link: "https://www.youtube.com/embed/MtFm1GMU9n4",
+                link: "https://www.youtube.com/embed/MtFm1GMU9n4?&autoplay=1",
                 titleLink: "Ver transmisión en vivo",
                 target: "_self",
-                iframe: "https://www.youtube.com/embed/MtFm1GMU9n4",
+                iframe: "https://www.youtube.com/embed/MtFm1GMU9n4?&autoplay=1",
             },
             {
                 id: 1,

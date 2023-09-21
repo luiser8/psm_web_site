@@ -28,7 +28,7 @@ const ModalIframe = ({ url }) => {
                     <div className="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all w-full">
 
                         <div class="aspect-w-16 aspect-h-9">
-                            <iframe className="w-full aspect-video h-screen flex items-center justify-center" src={url} width="720" height="480" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe className="w-full aspect-video h-screen flex items-center justify-center" src={url} width="720" height="480" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" encrypted-media allowfullscreen></iframe>
                         </div>
 
                     </div>
