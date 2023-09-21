@@ -21,7 +21,7 @@ export default function Carousel({ images }) {
   };
 
   const handleStopSlide = (iframe, index) => {
-    if(iframe !== ""){
+    if (iframe !== "") {
       setOpen(true);
       setIframe(iframe);
       const newImages = currentImages.filter(x => x.id === index);
@@ -33,7 +33,7 @@ export default function Carousel({ images }) {
     const interval = setTimeout(() =>
       setCurrentSlide((current) =>
         current === currentImages.length - 1 ? 0 : current + 1), 10000
-      );
+    );
     return () => {
       clearTimeout(interval);
     };
