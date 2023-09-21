@@ -21,7 +21,7 @@ export default [
                 id: 0,
                 url: '/assets/eventos/evento2.jpeg',
                 cloudinary: "",
-                link: "",
+                link: "https://www.youtube.com/embed/MtFm1GMU9n4",
                 titleLink: "Ver transmisión en vivo",
                 target: "_self",
                 iframe: "https://www.youtube.com/embed/MtFm1GMU9n4",
