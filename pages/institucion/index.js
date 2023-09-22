@@ -75,13 +75,13 @@ const Institucion = () => {
               <p className="my-2 text-black-100">
                 {institucionMock[0].description8}
               </p>
-              <Link key={institucionMock[0].id} legacyBehavior passHref href={institucionMock[0].link} target={institucionMock[0].target}>
+              {/* <Link key={institucionMock[0].id} legacyBehavior passHref href={institucionMock[0].link} target={institucionMock[0].target}>
                 <a target={institucionMock[0].target} rel="noopener noreferrer" className={`${institucionMock[0].link === "" ? 'cursor-default' : 'cursor-pointer'}`}>
                   <p className="my-2 text-black-100">
                     <b className=""><i>{institucionMock[0].linkText}</i></b>
                   </p>
                 </a>
-              </Link>
+              </Link> */}
             </motion.div>
           </ScrollAnimationWrapper>
         </div>
